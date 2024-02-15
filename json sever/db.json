@@ -1,0 +1,488 @@
+{
+  "User": [
+    {
+      "id": 1,
+      "username": "hoangyen",
+      "password": "123456"
+    },
+    {
+      "id": 2,
+      "username": "admin",
+      "password": "admin"
+    },
+    {
+      "id": 3,
+      "username": "admin",
+      "password": "ad1",
+      "role": "client"
+    },
+    {
+      "id": 4,
+      "username": "ad",
+      "password": "ad2",
+      "role": "admin"
+    },
+    {
+      "username": "0965087826",
+      "password": "123",
+      "role": "123",
+      "id": 5
+    },
+    {
+      "username": "0965087826",
+      "password": "123",
+      "role": "client",
+      "id": 6
+    },
+    {
+      "username": "yen",
+      "password": "yen",
+      "role": "admin",
+      "id": 7
+    },
+    {
+      "username": "yenh",
+      "password": "yen",
+      "role": "client",
+      "id": 8
+    },
+    {
+      "username": "yen123",
+      "password": "123",
+      "role": "admin",
+      "id": 9
+    },
+    {
+      "username": "12345678",
+      "password": "123",
+      "role": "admin",
+      "id": 10
+    },
+    {
+      "username": "y",
+      "password": "y1",
+      "role": "client",
+      "id": 11
+    },
+    {
+      "username": "y",
+      "password": "y2",
+      "role": "client",
+      "id": 12
+    }
+  ],
+  "orders": [
+    {
+      "name": "Yên Hoàng",
+      "phone": "0965087826",
+      "address": "Đỗ thế diên, phường nhân hòa, thị xã mỹ hòa, tỉnh hưng yên",
+      "items": [
+        {
+          "name": "Thực phẩm dinh dưỡng y học Ensure Gold Vani",
+          "price": "679.000",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 679,
+      "id": 1
+    },
+    {
+      "name": "Yên Hoàng",
+      "phone": "0965087826",
+      "address": "Đỗ thế diên, phường nhân hòa, thị xã mỹ hòa, tỉnh hưng yên",
+      "items": [
+        {
+          "name": "Thực phẩm dinh dưỡng y học Ensure Gold Vani",
+          "price": "679.000",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 679,
+      "id": 2
+    },
+    {
+      "name": "",
+      "phone": "",
+      "address": "",
+      "items": [
+        {
+          "name": "Sữa Nan Optipro PLUS 4 1.5kg",
+          "price": "719.000",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 719,
+      "id": 3
+    },
+    {
+      "name": "",
+      "phone": "",
+      "address": "",
+      "items": [
+        {
+          "name": "Bỉm tã quần Bobby size M",
+          "price": "680.000",
+          "quantity": 1
+        },
+        {
+          "name": "Sữa Enfagrow A+ số 4 1700g",
+          "price": "709.000",
+          "quantity": 1
+        },
+        {
+          "name": "Sữa Similac Protection 900g",
+          "price": "669.000",
+          "quantity": 1
+        },
+        {
+          "name": "Sữa Similac 5G số 4 1,7kg",
+          "price": "869.000",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 2927,
+      "id": 4
+    },
+    {
+      "name": "Yên Hoàng",
+      "phone": "0965087826",
+      "address": "Đỗ thế diên, phường nhân hòa, thị xã mỹ hòa, tỉnh hưng yên",
+      "items": [
+        {
+          "name": "Bỉm tã quần Moony bé trai size XXL(13-28kg)",
+          "price": "312.000",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 312,
+      "id": 5
+    },
+    {
+      "name": "Yên Hoàng",
+      "phone": "0965087826",
+      "address": "Đỗ thế diên, phường nhân hòa, thị xã mỹ hòa, tỉnh hưng yên",
+      "items": [
+        {
+          "name": "Tã quần Huggies gói cực đại (XL, 12-17kg)",
+          "price": "320.000",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 320,
+      "id": 6
+    },
+    {
+      "name": "Yên Hoàng",
+      "phone": "0965087826",
+      "address": "Đỗ thế diên, phường nhân hòa, thị xã mỹ hòa, tỉnh hưng yên",
+      "items": [
+        {
+          "name": "Thực phẩm dinh dưỡng y học Ensure Gold Vani",
+          "price": "679.000",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 679,
+      "id": 7
+    },
+    {
+      "name": "Yên Hoàng",
+      "phone": "0965087826",
+      "address": "Đỗ thế diên, phường nhân hòa, thị xã mỹ hòa, tỉnh hưng yên",
+      "items": [
+        {
+          "name": "Thực phẩm dinh dưỡng y học Ensure Gold Vani",
+          "price": "679.000",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 679,
+      "id": 8
+    },
+    {
+      "name": "Yên Hoàng",
+      "phone": "0965087826",
+      "address": "Đỗ thế diên, phường nhân hòa, thị xã mỹ hòa, tỉnh hưng yên",
+      "items": [
+        {
+          "name": "Thực phẩm cho trẻ 1-10 tuổi: Pediasure 1.6kg",
+          "price": "509.000",
+          "quantity": 1
+        },
+        {
+          "name": "Sữa Similac Protection 900g",
+          "price": "669.000",
+          "quantity": 1
+        },
+        {
+          "name": "Sữa Similac 5G số 4 1,7kg",
+          "price": "869.000",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 2047,
+      "id": 9
+    },
+    {
+      "name": "Yên Hoàng",
+      "phone": "0965087826",
+      "address": "Đỗ thế diên, phường nhân hòa, thị xã mỹ hòa, tỉnh hưng yên",
+      "items": [
+        {
+          "name": "Thực phẩm dinh dưỡng y học Ensure Gold Vani",
+          "price": "679.000",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 679,
+      "id": 10
+    },
+    {
+      "name": "Yên Hoàng",
+      "phone": "0965087826",
+      "address": "Đỗ thế diên, phường nhân hòa, thị xã mỹ hòa, tỉnh hưng yên",
+      "items": [
+        {
+          "name": "Bỉm tã dán Molfix Thiên nhiên",
+          "price": "395.000",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 395,
+      "id": 11
+    },
+    {
+      "name": "Yên Hoàng",
+      "phone": "0965087826",
+      "address": "Đỗ thế diên, phường nhân hòa, thị xã mỹ hòa, tỉnh hưng yên",
+      "items": [
+        {
+          "name": "Sữa Nan Optipro PLUS 4 1.5kg",
+          "price": "719.000",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 719,
+      "id": 12
+    },
+    {
+      "name": "",
+      "phone": "",
+      "address": "",
+      "items": [
+        {
+          "name": "Thực phẩm dinh dưỡng y học Ensure Gold Vani",
+          "price": "679.000",
+          "quantity": 1
+        },
+        {
+          "name": "Sữa Nan Optipro PLUS 4 1.5kg",
+          "price": "719.000",
+          "quantity": 1
+        },
+        {
+          "name": "Bỉm tã quần Bobby size M",
+          "price": "680.000",
+          "quantity": 1
+        },
+        {
+          "name": "Sữa Enfagrow A+ số 4 1700g",
+          "price": "709.000",
+          "quantity": 1
+        },
+        {
+          "name": "Thực phẩm cho trẻ 1-10 tuổi: Pediasure 1.6kg",
+          "price": "509.000",
+          "quantity": 1
+        },
+        {
+          "name": "Sữa Similac Protection 900g",
+          "price": "669.000",
+          "quantity": 1
+        },
+        {
+          "name": "Sữa Similac 5G số 4 1,7kg",
+          "price": "869.000",
+          "quantity": 1
+        },
+        {
+          "name": "Sữa Abbott Grow 4 900g",
+          "price": "339.000",
+          "quantity": 1
+        },
+        {
+          "name": "Bỉm tã dán Molfix Thiên nhiên",
+          "price": "395.000",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 5568,
+      "id": 13
+    },
+    {
+      "name": "Yên Hoàng",
+      "phone": "0965087826",
+      "address": "Đỗ thế diên, phường nhân hòa, thị xã mỹ hòa, tỉnh hưng yên",
+      "items": [
+        {
+          "name": "Sữa Nan Optipro PLUS 4 1.5kg",
+          "price": "719.000",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 719,
+      "id": 14
+    },
+    {
+      "name": "Yên Hoàng",
+      "phone": "0965087826",
+      "address": "Đỗ thế diên, phường nhân hòa, thị xã mỹ hòa, tỉnh hưng yên",
+      "items": [
+        {
+          "name": "Sữa Nan Optipro PLUS 4 1.5kg",
+          "price": "719.000",
+          "quantity": 1
+        },
+        {
+          "name": "Thực phẩm dinh dưỡng y học Ensure Gold Vani",
+          "price": "679.000",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 1398,
+      "id": 15
+    },
+    {
+      "name": "Yên Hoàng",
+      "phone": "0965087826",
+      "address": "Đỗ thế diên, phường nhân hòa, thị xã mỹ hòa, tỉnh hưng yên",
+      "items": [
+        {
+          "name": "Sữa Abbott Grow 4 900g",
+          "price": "339.000",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 339,
+      "id": 16
+    },
+    {
+      "name": "Yên Hoàng",
+      "phone": "0965087826",
+      "address": "Đỗ thế diên, phường nhân hòa, thị xã mỹ hòa, tỉnh hưng yên",
+      "items": [
+        {
+          "name": "Bỉm tã quần Bobby size M",
+          "price": "680.000",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 680,
+      "id": 17
+    },
+    {
+      "name": "Yên Hoàng",
+      "phone": "0965087826",
+      "address": "Đỗ thế diên, phường nhân hòa, thị xã mỹ hòa, tỉnh hưng yên",
+      "items": [
+        {
+          "name": "Thực phẩm dinh dưỡng y học Ensure Gold Vani",
+          "price": "679.000",
+          "quantity": 1
+        },
+        {
+          "name": "Sữa Nan Optipro PLUS 4 1.5kg",
+          "price": "719.000",
+          "quantity": 1
+        },
+        {
+          "name": "Sữa Abbott Grow 4 900g",
+          "price": "339.000",
+          "quantity": 1
+        },
+        {
+          "name": "Tã quần Merries Ultra Jumbo (L, 9-14kg)",
+          "price": "409.000",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 2146,
+      "id": 18
+    },
+    {
+      "name": "Yên Hoàng",
+      "phone": "0965087826",
+      "address": "Đỗ thế diên, phường nhân hòa, thị xã mỹ hòa, tỉnh hưng yên",
+      "items": [
+        {
+          "name": "Thực phẩm dinh dưỡng y học Ensure Gold Vani",
+          "price": "679.000",
+          "quantity": 1
+        },
+        {
+          "name": "Sữa Nan Optipro PLUS 4 1.5kg",
+          "price": "719.000",
+          "quantity": 1
+        },
+        {
+          "name": "Bỉm tã quần Bobby size M",
+          "price": "680.000",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 2078,
+      "id": 19
+    }
+  ],
+  "contact": [
+    {
+      "name": "Yên",
+      "phone": "0965087826",
+      "email": "hoangsyyen123@gmail.com",
+      "message": "hàng vỡ",
+      "id": 1
+    },
+    {
+      "name": "Yên",
+      "phone": "0965087826",
+      "email": "hoangsyyen123@gmail.com",
+      "message": "Hàng quá hạn sử dụng",
+      "id": 2
+    },
+    {
+      "name": "Hoàng Sỹ Yên",
+      "phone": "0972568757",
+      "email": "yen@gmail.com",
+      "message": "vỡ",
+      "id": 3
+    },
+    {
+      "name": "yenhoang",
+      "phone": "9097675621",
+      "email": "yen@gmail.com",
+      "message": "hàng hỏng",
+      "id": 4
+    },
+    {
+      "name": "a",
+      "phone": "123456",
+      "email": "yen@gmail.com",
+      "message": "1234",
+      "id": 5
+    },
+    {
+      "name": "a",
+      "phone": "2131232",
+      "email": "a@gmail.com",
+      "message": "hàng tốt",
+      "id": 6
+    },
+    {
+      "name": "a",
+      "phone": "123",
+      "email": "ádfgh",
+      "message": "a",
+      "id": 7
+    }
+  ]
+}

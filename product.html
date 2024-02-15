@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tất cả sản phẩm</title>
+    <link rel="stylesheet" href="/asset/css/product.css">
+    <script src="js/scripts.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700;800;900&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900;6..12,1000&family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
+    </style>
+      
+      
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      />
+
+</head>
+<body ng-app="AppBanHang" ng-controller="HomeCtrl">
+    <main>
+        <!-- <header id="header"></header>
+        <script>
+            load("#header", "./template/headerlogin.html");
+        </script> -->
+        <header class="header__inner">
+          <div class="chead">
+              <div class="contact">
+                <div class="cskh">
+                  <span>Mua hàng và CSKH: </span>
+                  <span class="phone">1800 6609</span>
+                  <img src="/source/free.png" alt="" />
+                </div>
+                <div class="address">
+                  <img src="/source/location.png" alt="" />
+                  <span>Tìm siêu thị <strong>(700)</strong></span>
+                </div>
+                <div class="inputs">
+                  <img src="/source/1h.png" alt="" />
+                  <span
+                    >Nhập địa chỉ để mua hàng giao <strong>Siêu Tốc 1h</strong>
+                  </span>
+                </div>
+                <div class="actions">
+                  <a href="/infouser.html">
+                    <!-- <i class="fa-regular fa-user"></i> -->
+                    <span class="login">Hoàng Yên</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="banner">
+              <div class="banner-1">
+                <div class="logoconcung">
+                  <a href="../index.html"><img src="/source/logoconcung.png" alt="" /></a>
+                </div>
+                <div class="box">
+                  <input
+                    type="text"
+                    class="input"
+                    placeholder="Ba Mẹ muốn mua gì hôm nay ?"
+                  />
+                  <button type="submit">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </div>
+                <div class="notification">
+                  <div class="notifi-1">
+                    <div class="notifi-1-1">
+                      <i class="fa-solid fa-cart-shopping anhyen"></i>
+                    </div>
+                    <div class="notifi-1-2">
+                      <a href="#!">Giỏ Hàng</a>
+                    </div>
+                  </div>
+                  <div class="notifi-2">
+                    <div class="notifi-2-1">
+                      <a href="#!">
+                        <i class="fa-solid fa-bell"></i>
+                        <span class="badge">10</span>
+                      </a>
+                    </div>
+                    <div class="notifi-2-2">
+                      <a href="#!">Ưu Đãi</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+      </header>
+        <div>
+            <div class="common">
+
+                <div>
+                    <div class="product-title">
+                        <a href="">Trang Chủ</a>
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <a href="">Tất cả sản phẩm</a>
+                    </div>
+                    
+                    <div class="all-product">
+                        <div class="allpro-left">
+                            <div class="all-title">
+                                <p>Sản phẩm</p>
+                                 <i class="fa-solid fa-magnifying-glass"></i>
+                                <input type="text" placeholder="Tìm kiếm sản phẩm">
+                            </div>
+
+                            <div class="title-detail">
+                                <p class="title-detaill">Giá Sản Phẩm</p>
+                                <div class="price-detaill">
+                                    <div class="price-detaill-1">
+                                        <input type="checkbox" name="" id=""><span>Dưới 500.000đ</span>
+                                    </div>
+                                    <div class="price-detaill-1">
+                                        <input type="checkbox" name="" id=""><span>500.000₫ - 1.000.000₫</span>
+                                    </div>
+                                    <div class="price-detaill-1">
+                                        <input type="checkbox" name="" id=""><span>1.000.000₫ - 1.500.000₫</span>
+                                    </div>
+                                    <div class="price-detaill-1">
+                                        <input type="checkbox" name="" id=""><span>1.500.000₫ - 2.000.000₫</span>
+                                    </div>
+
+                                    <div class="price-detaill-1">
+                                        <input type="checkbox" name="" id=""><span>Trên 2.000.000₫</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="all-title">
+                                <p>Loại Sản Phẩm</p>
+                                 <i class="fa-solid fa-magnifying-glass"></i>
+                                <input type="text" placeholder="Tìm Loại Sản Phẩm">
+                            </div>
+
+                            <div class="all-title">
+                                <p>Thương Hiệu</p>
+                                 <i class="fa-solid fa-magnifying-glass"></i>
+                                <input type="text" placeholder="Tìm Kiếm Thương Hiệu">
+                            </div>
+                        </div>
+                        <div class="allpro-right">
+                            <div class="all-products">
+                                <div class="products">
+                                    <img src="./source/produc2-4.jpg" alt="" />
+                                    <div class="name-prod">
+                                      <div class="n-product line-clamp">
+                                        <p>Thực phẩm dinh dưỡng y học Ensure Gold Vani</p>
+                                      </div>
+                                      <div class="p-detail">
+                                        <div class="star-product">
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <p>Đã bán 200k+</p>
+                                        </div>
+                                        <span class="price-your"
+                                          >679.000
+                                        </span>
+                                    </div>
+                                    </div>
+                                    <button class="btngh">Thêm vào giỏ hàng<i class="fa-solid fa-cart-plus"></i></button>
+                                </div>
+
+                                <div class="products">
+                                  <img src="./source/produc4.jpg" alt="" />
+                                  <div class="name-prod">
+                                    <div class="n-product line-clamp">
+                                      <p>Sữa Nan Optipro PLUS 4 1.5kg</p>
+                                    </div>
+                                    <div class="p-detail">
+                                      <div class="star-product">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <p>Đã bán 200k+</p>
+                                      </div>
+                                      <span class="price-your"
+                                        >719.000
+                                      </span>
+                                    </div>
+                                  </div>
+                                  <button class="btngh">Thêm vào giỏ hàng<i class="fa-solid fa-cart-plus"></i></button>
+                                </div>
+    
+                                <div class="products">
+                                    <img src="./source/produc8.jpg" alt="" />
+                                    <div class="name-prod">
+                                      <div class="n-product line-clamp">
+                                        <p>Bỉm tã quần Bobby size M</p>
+                                      </div>
+                                      <div class="star-product">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <p>Đã bán 200k+</p>
+                                      </div>
+                                      <span class="price-your"
+                                        >680.000 
+                                      </span>
+                                    </div>
+                                    <button class="btngh">Thêm vào giỏ hàng<i class="fa-solid fa-cart-plus"></i></button>
+                                </div>
+                                <div class="products">
+                                  <img src="./source/anhsua9.png" alt="" />
+                                  <div class="name-prod">
+                                    <div class="n-product line-clamp">
+                                      <p>Sữa Enfagrow A+ số 4 1700g</p>
+                                    </div>
+                                    <div class="p-detail">
+                                      <div class="star-product">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <p>Đã bán 200k+</p>
+                                      </div>
+                                      <span class="price-your"
+                                        >709.000
+                                      </span>
+                                    </div>
+                                  </div>
+                                  <button class="btngh">Thêm vào giỏ hàng<i class="fa-solid fa-cart-plus"></i></button>
+                                </div>
+                                <div class="products">
+                                  <img src="./source/anhsua2.png" alt="" />
+                                  <div class="name-prod">
+                                    <div class="n-product line-clamp">
+                                      <p>Sữa Abbott Grow 4 900g</p>
+                                    </div>
+                                    <div class="p-detail">
+                                      <div class="star-product">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <p>Đã bán 200k+</p>
+                                      </div>
+                                      <span class="price-your"
+                                        >339.000
+                                      </span>
+                                    </div>
+                                  </div>
+                                  <button class="btngh">Thêm vào giỏ hàng<i class="fa-solid fa-cart-plus"></i></button>
+                                </div>
+                                <div class="products">
+                                  <img src="./source/anhsua4.png" alt="" />
+                                  <div class="name-prod">
+                                    <div class="n-product line-clamp">
+                                      <p>Sữa Similac 5G số 4 1,7kg</p>
+                                    </div>
+                                    <div class="p-detail">
+                                      <div class="star-product">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <p>Đã bán 200k+</p>
+                                      </div>
+                                      <span class="price-your"
+                                        >869.000
+                                      </span>
+                                    </div>
+                                  </div>
+                                  <button class="btngh">Thêm vào giỏ hàng<i class="fa-solid fa-cart-plus"></i></button>
+                                </div>
+                                <div class="products">
+                                  <img src="./source/produc10.jpg" alt="" />
+                                  <div class="n-prod">
+                                    <div class="n-product line-clamp">
+                                      <p>Sữa Similac Protection 900g</p>
+                                    </div>
+                                    <div class="p-detail">
+                                      <div class="star-product">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <p>Đã bán 200k+</p>
+                                      </div>
+                                      <span class="price-your"
+                                        >669.000
+                                      </span>
+                                    </div>
+                                  </div>
+                                  <button class="btngh">Thêm vào giỏ hàng<i class="fa-solid fa-cart-plus"></i></button>
+                                </div>
+                                <div class="products">
+                                  <img src="./source/produc8.jpg" alt="" />
+                                  <div class="n-prod">
+                                    <div class="n-product line-clamp">
+                                      <p>Thực phẩm cho trẻ 1-10 tuổi: Pediasure 1.6kg</p>
+                                    </div>
+                                    <div class="p-detail">
+                                      <div class="star-product">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <p>Đã bán 200k+</p>
+                                      </div>
+                                      <span class="price-your"
+                                        >509.000
+                                      </span>
+                                    </div>
+                                  </div>
+                                  <button class="btngh">Thêm vào giỏ hàng<i class="fa-solid fa-cart-plus"></i></button>
+                                </div>
+                                <div class="products">
+                                  <img src="./source/anhta2.png" alt="" />
+                                  <div class="n-prod">
+                                    <div class="n-product line-clamp">
+                                      <p>Bỉm tã quần Merries size M 58 miếng</p>
+                                    </div>
+                                    <div class="p-detail">
+                                      <div class="star-product">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <p>Đã bán 200k+</p>
+                                      </div>
+                                      <span class="price-your"
+                                        >309.000
+                                      </span>
+                                    </div>
+                                  </div>
+                                  <button class="btngh">Thêm vào giỏ hàng<i class="fa-solid fa-cart-plus"></i></button>
+                                </div>
+                                <div class="products">
+                                  <img src="./source/anhta3.png" alt="" />
+                                  <div class="n-prod">
+                                    <div class="n-product line-clamp">
+                                      <p>Tã quần Merries Ultra Jumbo (L, 9-14kg)</p>
+                                    </div>
+                                    <div class="p-detail">
+                                      <div class="star-product">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <p>Đã bán 200k+</p>
+                                      </div>
+                                      <span class="price-your"
+                                        >409.000
+                                      </span>
+                                    </div>
+                                  </div>
+                                  <button class="btngh">Thêm vào giỏ hàng<i class="fa-solid fa-cart-plus"></i></button>
+                                </div>
+                                <div class="products">
+                                  <img src="./source/anhta5.png" alt="" />
+                                  <div class="name-prod">
+                                    <div class="n-product line-clamp">
+                                      <p>Bỉm tã dán Molfix Thiên nhiên</p>
+                                    </div>
+                                    <div class="p-detail">
+                                      <div class="star-product">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <p>Đã bán 200k+</p>
+                                      </div>
+                                      <span class="price-your"
+                                        >395.000
+                                      </span>
+                                    </div>
+                                  </div>
+                                  <button class="btngh">Thêm vào giỏ hàng<i class="fa-solid fa-cart-plus"></i></button>
+                                </div>
+                                <div class="products">
+                                  <img src="./source/sale2.png" alt="" />
+                                  <div class="name-prod">
+                                    <div class="n-product line-clamp">
+                                      <p>Bỉm tã quần Moony bé trai size XXL(13-28kg)</p>
+                                    </div>
+                                    <div class="p-detail">
+                                      <div class="star-product">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <p>Đã bán 200k+</p>
+                                      </div>
+                                      <span class="price-your"
+                                        >312.000
+                                      </span>
+                                    </div>
+                                  </div>
+                                  <button class="btngh">Thêm vào giỏ hàng<i class="fa-solid fa-cart-plus"></i></button>
+                                </div>
+                                <div class="products">
+                                  <img src="./source/sale6.png" alt="" />
+                                  <div class="n-prod">
+                                    <div class="n-product line-clamp">
+                                      <p>Bỉm tã quần Bobby bé trai size XXL</p>
+                                    </div>
+                                    <div class="p-detail">
+                                      <div class="star-product">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <p>Đã bán 200k+</p>
+                                      </div>
+                                      <span class="price-your"
+                                        >290.000
+                                      </span>
+                                    </div>
+                                  </div>
+                                  <button class="btngh">Thêm vào giỏ hàng<i class="fa-solid fa-cart-plus"></i></button>
+                                </div>
+                                <div class="products">
+                                  <img src="./source/sale4.png" alt="" />
+                                  <div class="name-prod">
+                                    <div class="n-product line-clamp">
+                                      <p>Tã quần Moony (L - bé trai, 44 miếng)</p>
+                                    </div>
+                                    <div class="p-detail">
+                                      <div class="star-product">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <p>Đã bán 200k+</p>
+                                      </div>
+                                      <span class="price-your"
+                                        >310.000
+                                      </span>
+                                    </div>
+                                  </div>
+                                  <button class="btngh">Thêm vào giỏ hàng<i class="fa-solid fa-cart-plus"></i></button>
+                                </div>
+                                <div class="products">
+                                  <img src="./source/sale7.png" alt="" />
+                                  <div class="name-prod">
+                                    <div class="n-product line-clamp">
+                                      <p>Tã quần Huggies gói cực đại (XL, 12-17kg)</p>
+                                    </div>
+                                    <div class="p-detail">
+                                      <div class="star-product">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <p>Đã bán 200k+</p>
+                                      </div>
+                                      <span class="price-your"
+                                        >320.000
+                                      </span>
+                                    </div>
+                                  </div>
+                                  <button class="btngh">Thêm vào giỏ hàng<i class="fa-solid fa-cart-plus"></i></button>
+                                </div>
+                                <div class="products">
+                                  <img src="./source/sale9.png" alt="" />
+                                  <div class="name-prod">
+                                    <div class="n-product line-clamp">
+                                      <p>Tã dán Huggies Thin & Soft (XL, 12-17kg)</p>
+                                    </div>
+                                    <div class="p-detail">
+                                      <div class="star-product">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <p>Đã bán 200k+</p>
+                                      </div>
+                                      <span class="price-your"
+                                        >388.000
+                                      </span>
+                                    </div>
+                                  </div>
+                                  <button class="btngh">Thêm vào giỏ hàng<i class="fa-solid fa-cart-plus"></i></button>
+                                </div>
+                                <div class="products">
+                                  <img src="./source/produc2-4.jpg" alt="" />
+                                  <div class="name-prod">
+                                    <div class="n-product line-clamp">
+                                      <p>Thực phẩm dinh dưỡng y học Ensure Gold Vani</p>
+                                    </div>
+                                    <div class="p-detail">
+                                      <div class="star-product">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <p>Đã bán 200k+</p>
+                                      </div>
+                                      <span class="price-your"
+                                        >679.000 
+                                      </span>
+                                  </div>
+                                  </div>
+                                  <button class="btngh">Thêm vào giỏ hàng<i class="fa-solid fa-cart-plus"></i></button>
+                              </div>
+
+                              <div class="products">
+                                <img src="./source/produc4.jpg" alt="" />
+                                <div class="name-prod">
+                                  <div class="n-product line-clamp">
+                                    <p>Sữa Nan Optipro PLUS 4 1.5kg</p>
+                                  </div>
+                                  <div class="p-detail">
+                                    <div class="star-product">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <p>Đã bán 200k+</p>
+                                    </div>
+                                    <span class="price-your"
+                                      >719.000
+                                    </span>
+                                  </div>
+                                </div>
+                                <button class="btngh">Thêm vào giỏ hàng<i class="fa-solid fa-cart-plus"></i></button>
+                              </div>
+  
+                              <div class="products">
+                                  <img src="./source/produc8.jpg" alt="" />
+                                  <div class="name-prod">
+                                    <div class="n-product line-clamp">
+                                      <p>Bỉm tã quần Bobby size M</p>
+                                    </div>
+                                    <div class="star-product">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <p>Đã bán 200k+</p>
+                                    </div>
+                                    <span class="price-your"
+                                      >680.000 
+                                    </span>
+                                  </div>
+                                  <button class="btngh">Thêm vào giỏ hàng<i class="fa-solid fa-cart-plus"></i></button>
+                              </div>
+                              <div class="products">
+                                <img src="./source/anhsua9.png" alt="" />
+                                <div class="name-prod">
+                                  <div class="n-product line-clamp">
+                                    <p>Sữa Enfagrow A+ số 4 1700g</p>
+                                  </div>
+                                  <div class="p-detail">
+                                    <div class="star-product">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <p>Đã bán 200k+</p>
+                                    </div>
+                                    <span class="price-your"
+                                      >709.000
+                                    </span>
+                                  </div>
+                                </div>
+                                <button class="btngh">Thêm vào giỏ hàng<i class="fa-solid fa-cart-plus"></i></button>
+                              </div>
+                              <div class="products">
+                                <img src="./source/anhsua2.png" alt="" />
+                                <div class="name-prod">
+                                  <div class="n-product line-clamp">
+                                    <p>Sữa Abbott Grow 4 900g</p>
+                                  </div>
+                                  <div class="p-detail">
+                                    <div class="star-product">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <p>Đã bán 200k+</p>
+                                    </div>
+                                    <span class="price-your"
+                                      >339.000
+                                    </span>
+                                  </div>
+                                </div>
+                                <button class="btngh">Thêm vào giỏ hàng<i class="fa-solid fa-cart-plus"></i></button>
+                              </div>
+                              <div class="products">
+                                <img src="./source/anhsua4.png" alt="" />
+                                <div class="name-prod">
+                                  <div class="n-product line-clamp">
+                                    <p>Sữa Similac 5G số 4 1,7kg</p>
+                                  </div>
+                                  <div class="p-detail">
+                                    <div class="star-product">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <p>Đã bán 200k+</p>
+                                    </div>
+                                    <span class="price-your"
+                                      >869.000
+                                    </span>
+                                  </div>
+                                </div>
+                                <button class="btngh">Thêm vào giỏ hàng<i class="fa-solid fa-cart-plus"></i></button>
+                              </div>
+                              <div class="products">
+                                <img src="./source/produc10.jpg" alt="" />
+                                <div class="n-prod">
+                                  <div class="n-product line-clamp">
+                                    <p>Sữa Similac Protection 900g</p>
+                                  </div>
+                                  <div class="p-detail">
+                                    <div class="star-product">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <p>Đã bán 200k+</p>
+                                    </div>
+                                    <span class="price-your"
+                                      >669.000
+                                    </span>
+                                  </div>
+                                </div>
+                                <button class="btngh">Thêm vào giỏ hàng<i class="fa-solid fa-cart-plus"></i></button>
+                              </div>
+                              <div class="products">
+                                <img src="./source/produc8.jpg" alt="" />
+                                <div class="n-prod">
+                                  <div class="n-product line-clamp">
+                                    <p>Thực phẩm cho trẻ 1-10 tuổi: Pediasure 1.6kg</p>
+                                  </div>
+                                  <div class="p-detail">
+                                    <div class="star-product">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <p>Đã bán 200k+</p>
+                                    </div>
+                                    <span class="price-your"
+                                      >509.000
+                                    </span>
+                                  </div>
+                                </div>
+                                <button class="btngh">Thêm vào giỏ hàng<i class="fa-solid fa-cart-plus"></i></button>
+                              </div>
+                              <div class="products">
+                                <img src="./source/anhta2.png" alt="" />
+                                <div class="n-prod">
+                                  <div class="n-product line-clamp">
+                                    <p>Bỉm tã quần Merries size M 58 miếng</p>
+                                  </div>
+                                  <div class="p-detail">
+                                    <div class="star-product">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <p>Đã bán 200k+</p>
+                                    </div>
+                                    <span class="price-your"
+                                      >309.000
+                                    </span>
+                                  </div>
+                                </div>
+                                <button class="btngh">Thêm vào giỏ hàng<i class="fa-solid fa-cart-plus"></i></button>
+                              </div>
+                              <div class="products">
+                                <img src="./source/anhta3.png" alt="" />
+                                <div class="n-prod">
+                                  <div class="n-product line-clamp">
+                                    <p>Tã quần Merries Ultra Jumbo (L, 9-14kg)</p>
+                                  </div>
+                                  <div class="p-detail">
+                                    <div class="star-product">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <p>Đã bán 200k+</p>
+                                    </div>
+                                    <span class="price-your"
+                                      >409.000
+                                    </span>
+                                  </div>
+                                </div>
+                                <button class="btngh">Thêm vào giỏ hàng<i class="fa-solid fa-cart-plus"></i></button>
+                              </div>
+                              <div class="products">
+                                <img src="./source/anhta5.png" alt="" />
+                                <div class="name-prod">
+                                  <div class="n-product line-clamp">
+                                    <p>Bỉm tã dán Molfix Thiên nhiên</p>
+                                  </div>
+                                  <div class="p-detail">
+                                    <div class="star-product">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <p>Đã bán 200k+</p>
+                                    </div>
+                                    <span class="price-your"
+                                      >395.000
+                                    </span>
+                                  </div>
+                                </div>
+                                <button class="btngh">Thêm vào giỏ hàng<i class="fa-solid fa-cart-plus"></i></button>
+                              </div>
+                              <div class="products">
+                                <img src="./source/sale2.png" alt="" />
+                                <div class="name-prod">
+                                  <div class="n-product line-clamp">
+                                    <p>Bỉm tã quần Moony bé trai size XXL(13-28kg)</p>
+                                  </div>
+                                  <div class="p-detail">
+                                    <div class="star-product">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <p>Đã bán 200k+</p>
+                                    </div>
+                                    <span class="price-your"
+                                      >312.000
+                                    </span>
+                                  </div>
+                                </div>
+                                <button class="btngh">Thêm vào giỏ hàng<i class="fa-solid fa-cart-plus"></i></button>
+                              </div>
+                              <div class="products">
+                                <img src="./source/sale6.png" alt="" />
+                                <div class="n-prod">
+                                  <div class="n-product line-clamp">
+                                    <p>Bỉm tã quần Bobby bé trai size XXL</p>
+                                  </div>
+                                  <div class="p-detail">
+                                    <div class="star-product">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <p>Đã bán 200k+</p>
+                                    </div>
+                                    <span class="price-your"
+                                      >290.000
+                                    </span>
+                                  </div>
+                                </div>
+                                <button class="btngh">Thêm vào giỏ hàng<i class="fa-solid fa-cart-plus"></i></button>
+                              </div>
+                              <div class="products">
+                                <img src="./source/sale4.png" alt="" />
+                                <div class="name-prod">
+                                  <div class="n-product line-clamp">
+                                    <p>Tã quần Moony (L - bé trai, 44 miếng)</p>
+                                  </div>
+                                  <div class="p-detail">
+                                    <div class="star-product">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <p>Đã bán 200k+</p>
+                                    </div>
+                                    <span class="price-your"
+                                      >310.000
+                                    </span>
+                                  </div>
+                                </div>
+                                <button class="btngh">Thêm vào giỏ hàng<i class="fa-solid fa-cart-plus"></i></button>
+                              </div>
+                              <div class="products">
+                                <img src="./source/sale7.png" alt="" />
+                                <div class="name-prod">
+                                  <div class="n-product line-clamp">
+                                    <p>Tã quần Huggies gói cực đại (XL, 12-17kg)</p>
+                                  </div>
+                                  <div class="p-detail">
+                                    <div class="star-product">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <p>Đã bán 200k+</p>
+                                    </div>
+                                    <span class="price-your"
+                                      >320.000
+                                    </span>
+                                  </div>
+                                </div>
+                                <button class="btngh">Thêm vào giỏ hàng<i class="fa-solid fa-cart-plus"></i></button>
+                              </div>
+                              <div class="products">
+                                <img src="./source/sale9.png" alt="" />
+                                <div class="name-prod">
+                                  <div class="n-product line-clamp">
+                                    <p>Tã dán Huggies Thin & Soft (XL, 12-17kg)</p>
+                                  </div>
+                                  <div class="p-detail">
+                                    <div class="star-product">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <p>Đã bán 200k+</p>
+                                    </div>
+                                    <span class="price-your"
+                                      >388.000
+                                    </span>
+                                  </div>
+                                </div>
+                                <button class="btngh">Thêm vào giỏ hàng<i class="fa-solid fa-cart-plus"></i></button>
+                              </div>
+                            </div>
+
+                            <!-- <div class="PT">
+                                <span class="PT-1">1</span>
+                                <span>2</span>
+                                <span>3</span>
+                                <span>4</span>
+                                <span>5</span>
+                                <span>...</span>
+                            </div> -->
+
+                            <div>
+                              <section class="cartgh">
+                                
+                                <div class="cr-title">
+                                  <i class="fa-regular fa-circle-xmark"></i>
+                                  <h2>Giỏ Hàng</h2>
+                                </div>
+                                
+                                <formmm action="">
+                                  <table>
+                                    <thead>
+                                      <tr>
+                                        <th>Sản Phẩm</th>
+                                        <th>Giá</th>
+                                        <th>SL</th>
+                                        <th>Chọn</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <!-- <tr>
+                                        <td style="display: flex;align-items: center;"><img style="width: 70px;" src="/source/produc6.jpg" alt="Sữa">Sữa</td>
+                                        <td><p><span>450.000</span><sup>đ</sup></p></td>
+                                        <td><input style="width: 30px;outline: none;" type="number" value="1" min="1"></td>
+                                        <td style="cursor: pointer;">Xóa</td>
+                                      </tr>
+                                      <tr>
+                                        <td style="display: flex;align-items: center;"><img style="width: 70px;" src="/source/produc2-4.jpg" alt="Sữa">Sữa</td>
+                                        <td><p><span>450.000</span><sup>đ</sup></p></td>
+                                        <td><input style="width: 30px;outline: none;" type="number" value="1" min="1"></td>
+                                        <td style="cursor: pointer;">Xóa</td>
+                                      </tr> -->
+                                    </tbody>
+                                  </table>
+                                  <div class="price-total">
+                                    <p>Tổng tiền: <span>0</span><sup>đ</sup></p>
+                                  </div>
+                                  <button class="btn-dh"><a href="./checkout.html">Đặt Hàng</a></button>
+                                </formmm>
+                  
+                              </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+
+        <footer id="footer"></footer>
+        <script>
+            load("#footer", "./template/footer.html");
+        </script>
+
+<script src="./js/angular/angular.min.js"></script>
+<script src="./js/angular/global.js"></script>
+<script src="./js/angular/pro.js"></script>
+<script src="./js/cart.js"></script>
+    </main>
+
+    
+</body>
+</html>

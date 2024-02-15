@@ -1,0 +1,2818 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Siêu Thị Mẹ Bầu Và Bé Toàn Quốc</title>
+    <link rel="stylesheet" href="./asset/css/reset.css" />
+    <link rel="stylesheet" href="/asset/css/index.css" />
+    <link rel="stylesheet" href="/asset/responsive.css">
+    <script src="/js/productjson.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Montserrat+Alternates:wght@400;500;600;700;800;900&family=Nunito:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Nunito:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <main
+    >
+      <!-- Header -->
+      <header class="header">
+        <div class="image">
+          <img id="img" onclick="changeImage()" src="img5.jpg" alt="" />
+        </div>
+
+        <div class="chead">
+          <div class="contact">
+            <div class="cskh">
+              <span>Mua hàng và CSKH: </span>
+              <span class="phone">1800 6609</span>
+              <img src="/source/free.png" alt="" />
+            </div>
+            <div class="address">
+              <img src="./source/location.png" alt="" />
+              <span>Tìm siêu thị <strong>(700)</strong></span>
+            </div>
+            <div class="inputs">
+              <img src="./source/1h.png" alt="" />
+              <span
+                >Nhập địa chỉ để mua hàng giao <strong>Siêu Tốc 1h</strong>
+              </span>
+            </div>
+            <div class="actions">
+              <a href="./login.html">
+                <i class="fa-regular fa-user"></i>
+                <span class="login">Đăng nhập</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="banner">
+          <div class="banner-1">
+            <div class="logoconcung">
+              <a href="./index.html"><img src="/source/logoconcung.png" alt="" /></a>
+            </div>
+            <div class="box">
+              <input
+                type="text"
+                class="input"
+                id="search"
+                placeholder="Ba Mẹ muốn mua gì hôm nay ?"
+              />
+              <button onclick="searchProduct()" type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                
+              </button>
+            </div>
+            <div class="notification">
+              <div class="notifi-1">
+                <div class="notifi-1-1">
+                  <a href="#!">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="badge">03</span>
+                  </a>
+                </div>
+                <div class="notifi-1-2">
+                  <a href="#!">Giỏ Hàng</a>
+                </div>
+              </div>
+              <div class="notifi-2">
+                <div class="notifi-2-1">
+                  <a href="#!">
+                    <i class="fa-solid fa-bell"></i>
+                    <span class="badge">10</span>
+                  </a>
+                </div>
+                <div class="notifi-2-2">
+                  <a href="#!">Ưu Đãi</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Navbar -->
+      <nav class="navbar">
+        <div class="common">
+          <div class="nav-left">
+            <ul class="menu-item">
+              <li class="sub-menu">
+                <a href="#!" class="menu-link">Sữa bột cao cấp</a>
+                <!-- <a href="#!" class="arrow"><i class="fa-solid fa-chevron-right"></i></a> -->
+
+                <div class="mega-menu">
+                  <div class="mega-item">
+                    <h2 class="title-mega">Sữa bột cao cấp</h2>
+                    <div class="separate"></div>
+                    <div class="list-mega-item">
+                      <div class="list-item-left">
+                        <span>Loại Sữa</span>
+                        <a class="item-left" href="#!">Sữa Mỹ</a>
+                        <a class="item-left" href="#!">Sữa Nhật</a>
+                        <a class="item-left" href="#!">Sữa Úc</a>
+                        <a class="item-left" href="#!">Sữa Hàn</a>
+                        <a class="item-left" href="#!">Sữa Việt</a>
+                        <a class="item-left" href="#!">Sữa Anh</a>
+                        <a class="item-left" href="#!">Sữa tăng cân</a>
+                        <a class="item-left" href="#!">Sữa khác</a>
+                      </div>
+                      <div class="list-item-right">
+                        <span>Theo Tuổi</span>
+                        <a class="item-right" href="#!">0-1 tuổi</a>
+                        <a class="item-right" href="#!">1-2 tuổi</a>
+                        <a class="item-right" href="#!">>2 tuổi</a>
+                        <a class="item-right" href="#!">>3 tuổi</a>
+                        <a class="item-right" href="#!">>4 tuổi</a>
+                        <a class="item-right" href="#!">Sữa bầu</a>
+                        <a class="item-right" href="#!">Sữa người lớn</a>
+                      </div>
+                    </div>
+                    <div class="powdered-milk-space"></div>
+                    <div class="list-item-bottom">
+                      <a class="XTC" href="#!">Xem Tất Cả</a>
+
+                      <span><i class="fa-solid fa-chevron-right"></i></span>
+                    </div>
+                  </div>
+                  <div class="mega-img">
+                    <img src="./source/1693975466-MENU-BAR-SỮA(1).png" alt="" />
+                  </div>
+                </div>
+              </li>
+
+              <li class="sub-menu">
+                <a href="#!" class="menu-link">Bình tã khuyến mãi</a>
+                <!-- <a href="#!" class="arrow"><i class="fa-solid fa-chevron-right"></i></a> -->
+
+                <div class="mega-menu">
+                  <div class="mega-item">
+                    <h2 class="title-mega">Bỉm tã khuyến mãi</h2>
+                    <div class="separate"></div>
+                    <div class="list-mega-item">
+                      <div class="list-item-left">
+                        <span>Theo loại bỉm/tã</span>
+                        <a class="item-left" href="#!">Tã quần</a>
+                        <a class="item-left" href="#!">Tã dán</a>
+                        <a class="item-left" href="#!">Bỉm merries</a>
+                        <a class="item-left" href="#!">Bỉm moony</a>
+                        <a class="item-left" href="#!">Bỉm bobby</a>
+                        <a class="item-left" href="#!">Bỉm Huggies</a>
+                        <a class="item-left" href="#!">Miếng lót</a>
+                        <a class="item-left" href="#!">Người lớn</a>
+                      </div>
+                      <div class="list-item-right">
+                        <span>Theo size/cân nặng</span>
+                        <a class="item-right" href="#!">NB < 5 Kg</a>
+                        <a class="item-right" href="#!">S 4-8 Kg</a>
+                        <a class="item-right" href="#!">M 5-11 Kg</a>
+                        <a class="item-right" href="#!">L 9-14 Kg</a>
+                        <a class="item-right" href="#!">XL 12-18 Kg</a>
+                        <a class="item-right" href="#!">XXL 15-24 Kg</a>
+                        <a class="item-right" href="#!">XXXL 19-30 Kg</a>
+                      </div>
+                    </div>
+                    <div class="powdered-milk-space"></div>
+                    <div class="list-item-bottom">
+                      <a class="XTC" href="#!">Xem Tất Cả</a>
+                      <span><i class="fa-solid fa-chevron-right"></i></span>
+                    </div>
+                  </div>
+                  <div class="mega-img">
+                    <img src="./source/ta.png" alt="" />
+                  </div>
+                </div>
+              </li>
+              <li class="sub-menu">
+                <a href="#!" class="menu-link">Sữa tươi các loại</a>
+                <!-- <a href="#!" class="arrow"><i class="fa-solid fa-chevron-right"></i></a> -->
+                <div class="mega-menu">
+                  <div class="mega-item">
+                    <h2 class="title-mega">Sữa tươi các loại</h2>
+                    <div class="separate"></div>
+                    <div class="list-mega-item">
+                      <div class="list-item-left">
+                        <span>Sữa tươi các loại</span>
+                        <a class="item-left" href="#!">Sữa bột pha sẵn</a>
+                        <a class="item-left" href="#!">Sữa tươi sữa chua</a>
+                        <a class="item-left" href="#!">Sữa hạt dinh dưỡng</a>
+                        <a class="item-left" href="#!">Sữa tươi medow fresh</a>
+                        <a class="item-left" href="#!">Sữa tươi có đường</a>
+                        <a class="item-left" href="#!">Sữa tươi ít đường</a>
+                        <a class="item-left" href="#!">Sữa tươi không đường</a>
+                        <a class="item-left" href="#!">Thức uống dinh dưỡng</a>
+                      </div>
+                    </div>
+                    <div class="powdered-milk-space"></div>
+                    <div class="list-item-bottom">
+                      <a class="XTC" href="#!">Xem Tất Cả</a>
+                      <span><i class="fa-solid fa-chevron-right"></i></span>
+                    </div>
+                  </div>
+
+                  <div class="mega-img">
+                    <img src="./source/suatuoi.png" alt="" />
+                  </div>
+                </div>
+              </li>
+              <li class="sub-menu">
+                <a href="#!" class="menu-link">Ăn dặm, dinh dưỡng</a>
+                <!-- <a href="#!" class="arrow"><i class="fa-solid fa-chevron-right"></i></a> -->
+
+                <div class="mega-menu">
+                  <div class="mega-item">
+                    <h2 class="title-mega">Ăn dặm, dinh dưỡng</h2>
+                    <div class="separate"></div>
+                    <div class="list-mega-item">
+                      <div class="list-item-left">
+                        <span>Ăn dặm</span>
+                        <a class="item-left" href="#!">Bánh ăn dặm</a>
+                        <a class="item-left" href="#!">Cháo, mì</a>
+                        <a class="item-left" href="#!">Thức ăn nghiền</a>
+                        <a class="item-left" href="#!">Bột</a>
+                        <a class="item-left" href="#!">Bánh pigeon</a>
+                        <a class="item-left" href="#!">Quả việt quất</a>
+                        <a class="item-left" href="#!">Bông cải xanh</a>
+                        <a class="item-left" href="#!">Đậu năng</a>
+                      </div>
+                      <div class="list-item-right">
+                        <span>Dinh dưỡng</span>
+                        <a class="item-right" href="#!">Phô mai váng sữa</a>
+                        <a class="item-right" href="#!">Bánh kẹo, dinh dưỡng</a>
+                        <a class="item-right" href="#!">Dinh dưỡng đóng lọ</a>
+                        <a class="item-right" href="#!">Dinh Dưỡng cho mẹ</a>
+                        <a class="item-right" href="#!">Gia vị chế biến</a>
+                      </div>
+                    </div>
+                    <div class="powdered-milk-space"></div>
+                    <div class="list-item-bottom">
+                      <a class="XTC" href="#!">Xem Tất Cả</a>
+                      <span><i class="fa-solid fa-chevron-right"></i></span>
+                    </div>
+                  </div>
+                  <div class="mega-img">
+                    <img src="./source/dinhduong.png" alt="" />
+                  </div>
+                </div>
+              </li>
+              <li class="sub-menu">
+                <a href="#!" class="menu-link">Vitamin & sức khỏe</a>
+                <!-- <a href="#!" class="arrow"><i class="fa-solid fa-chevron-right"></i></a> -->
+
+                <div class="mega-menu">
+                  <div class="mega-item">
+                    <h2 class="title-mega">Vitamin & sức khỏe</h2>
+                    <div class="separate"></div>
+                    <div class="list-mega-item">
+                      <div class="list-item-left">
+                        <span>Vitamin</span>
+                        <a class="item-left" href="#!">Vitamin C</a>
+                        <a class="item-left" href="#!">Vitamin D</a>
+                        <a class="item-left" href="#!">DHA/Omega-3</a>
+                        <a class="item-left" href="#!">Calcium</a>
+                        <a class="item-left" href="#!">Multi Vitamin</a>
+                        <a class="item-left" href="#!">Vitamin B6</a>
+                        <a class="item-left" href="#!">Vitamin B12</a>
+                        <a class="item-left" href="#!">Vitamin pediakid</a>
+                      </div>
+                      <div class="list-item-right">
+                        <span>Sức Khỏe</span>
+                        <a class="item-right" href="#!">Men vi sinh</a>
+                        <a class="item-right" href="#!">Bột sữa non</a>
+                        <a class="item-right" href="#!">Thực phẩm lợi sữa</a>
+                      </div>
+                    </div>
+                    <div class="powdered-milk-space"></div>
+                    <div class="list-item-bottom">
+                      <a class="XTC" href="#!">Xem Tất Cả</a>
+
+                      <span><i class="fa-solid fa-chevron-right"></i></span>
+                    </div>
+                  </div>
+                  <div class="mega-img">
+                    <img src="./source/vitamin.png" alt="" />
+                  </div>
+                </div>
+              </li>
+              <li class="sub-menu">
+                <a href="#!" class="menu-link">Chăm sóc gia đình</a>
+                <!-- <a href="#!" class="arrow"><i class="fa-solid fa-chevron-right"></i></a> -->
+
+                <div class="mega-menu">
+                  <div class="mega-item">
+                    <h2 class="title-mega">Chăm sóc gia đình</h2>
+                    <div class="separate"></div>
+                    <div class="list-mega-item">
+                      <div class="list-item-left">
+                        <span>Đồ dùng & vật dụng</span>
+                        <a class="item-left" href="#!">Xịt phòng, sáp thơm</a>
+                        <a class="item-left" href="#!">Giặt xả quần áo</a>
+                        <a class="item-left" href="#!">Túi, bao đựng rác</a>
+                        <a class="item-left" href="#!">Nước rửa các loại</a>
+                        <a class="item-left" href="#!">Nước lau sàn</a>
+                        <a class="item-left" href="#!">Máy lọc nước</a>
+                        <a class="item-left" href="#!">Máy sưởi</a>
+                        <a class="item-left" href="#!">Máy lọc không khí</a>
+                      </div>
+                    </div>
+                    <div class="powdered-milk-space"></div>
+                    <div class="list-item-bottom">
+                      <a class="XTC" href="#!">Xem Tất Cả</a>
+
+                      <span><i class="fa-solid fa-chevron-right"></i></span>
+                    </div>
+                  </div>
+                  <div class="mega-img">
+                    <img src="./source/chamsocgiadinh.png" alt="" />
+                  </div>
+                </div>
+              </li>
+              <li class="sub-menu">
+                <a href="#!" class="menu-link">Đồ dùng mẹ & bé</a>
+                <!-- <a href="#!" class="arrow"><i class="fa-solid fa-chevron-right"></i></a> -->
+
+                <div class="mega-menu">
+                  <div class="mega-item">
+                    <h2 class="title-mega">Đồ dùng mẹ & bé</h2>
+                    <div class="separate"></div>
+                    <div class="list-mega-item">
+                      <div class="list-item-left">
+                        <span>Đồ của mẹ</span>
+                        <a class="item-left" href="#!">Máy hút sữa</a>
+                        <a class="item-left" href="#!">Túi trữ sữa</a>
+                        <a class="item-left" href="#!">Mỹ phẩm cho mẹ</a>
+                        <a class="item-left" href="#!">Khăn ướt, khô</a>
+                        <a class="item-left" href="#!">Vải khô</a>
+                        <a class="item-left" href="#!">Tấm lót</a>
+                        <a class="item-left" href="#!">Gối kê bụng</a>
+                        <a class="item-left" href="#!">Sức khỏe, an toàn</a>
+                      </div>
+                      <div class="list-item-right">
+                        <span>Đồ của bé</span>
+                        <a class="item-right" href="#!">Bình sữa, phụ kiện</a>
+                        <a class="item-right" href="#!">Máy tiệt trùng</a>
+                        <a class="item-right" href="#!">Xe đẩy, đai, địu</a>
+                        <a class="item-right" href="#!">Ty ngậm cho bé</a>
+                        <a class="item-right" href="#!">Tấm lót chống thấm</a>
+                      </div>
+                    </div>
+                    <div class="powdered-milk-space"></div>
+                    <div class="list-item-bottom">
+                      <a class="XTC" href="#!">Xem Tất Cả</a>
+
+                      <span><i class="fa-solid fa-chevron-right"></i></span>
+                    </div>
+                  </div>
+                  <div class="mega-img">
+                    <img src="./source/mebe.png" alt="" />
+                  </div>
+                </div>
+              </li>
+              <li class="sub-menu">
+                <a href="#!" class="menu-link">Thời trang & Phụ kiện</a>
+                <!-- <a href="#!" class="arrow"><i class="fa-solid fa-chevron-right"></i></a> -->
+
+                <div class="mega-menu">
+                  <div class="mega-item">
+                    <h2 class="title-mega">Thời trang & Phụ kiện</h2>
+                    <div class="separate"></div>
+                    <div class="list-mega-item">
+                      <div class="list-item-left">
+                        <span>Bé Gái</span>
+                        <a class="item-left" href="#!">Áo, quần</a>
+                        <a class="item-left" href="#!">Đầm</a>
+                        <a class="item-left" href="#!">Bộ quần áo</a>
+                        <a class="item-left" href="#!">Giày, dép</a>
+                        <a class="item-left" href="#!">Mũ</a>
+                        <a class="item-left" href="#!">Kẹp tóc</a>
+                        <a class="item-left" href="#!">Khẩu trang</a>
+                        <a class="item-left" href="#!">Vải đặc biệt</a>
+                      </div>
+                      <div class="list-item-right">
+                        <span>Bé Trai</span>
+                        <a class="item-right" href="#!">Áo, quần</a>
+                        <a class="item-right" href="#!">Bộ quần áo</a>
+                        <a class="item-right" href="#!">Giày</a>
+                        <a class="item-right" href="#!">Ba lô</a>
+                        <a class="item-right" href="#!">Phụ kiện khác</a>
+                      </div>
+                    </div>
+                    <div class="powdered-milk-space"></div>
+                    <div class="list-item-bottom">
+                      <a class="XTC" href="#!">Xem Tất Cả</a>
+
+                      <span><i class="fa-solid fa-chevron-right"></i></span>
+                    </div>
+                  </div>
+                  <div class="mega-img">
+                    <img src="./source/TT&PK.png" alt="" />
+                  </div>
+                </div>
+              </li>
+              <li class="sub-menu">
+                <a href="#!" class="menu-link">Đồ chơi, học tập</a>
+                <!-- <a href="#!" class="arrow"><i class="fa-solid fa-chevron-right"></i></a> -->
+
+                <div class="mega-menu">
+                  <div class="mega-item">
+                    <h2 class="title-mega">Đồ chơi, học tập</h2>
+                    <div class="separate"></div>
+                    <div class="list-mega-item">
+                      <div class="list-item-left">
+                        <span>Đồ chơi</span>
+                        <a class="item-left" href="#!">Lắp ráp, xếp hình</a>
+                        <a class="item-left" href="#!">Thế giới thú bông</a>
+                        <a class="item-left" href="#!">Cát nước</a>
+                        <a class="item-left" href="#!">Thế giới động vật</a>
+                        <a class="item-left" href="#!">Kỹ năng, đời sống</a>
+                      </div>
+                      <div class="list-item-right">
+                        <span>Học tập</span>
+                        <a class="item-right" href="#!">Tập viết, tập tô</a>
+                        <a class="item-right" href="#!">Bóc dán</a>
+                        <a class="item-right" href="#!">Bút vẽ</a>
+                        <a class="item-right" href="#!">Màu tô</a>
+                        <a class="item-right" href="#!">Đất nặn</a>
+                        <a class="item-right" href="#!">Truyện tranh</a>
+                        <a class="item-right" href="#!">Truyện cổ tích</a>
+                        <a class="item-right" href="#!">Phát triển kỹ năng</a>
+                      </div>
+                    </div>
+                    <div class="powdered-milk-space"></div>
+                    <div class="list-item-bottom">
+                      <a class="XTC" href="#!">Xem Tất Cả</a>
+
+                      <span><i class="fa-solid fa-chevron-right"></i></span>
+                    </div>
+                  </div>
+                  <div class="mega-img">
+                    <img src="./source/Dochoi.png" alt="" />
+                  </div>
+                </div>
+              </li>
+              <li class="sub-menu">
+                <a href="#!" class="menu-link">Ứng dụng Mẹ & Bé</a>
+                <!-- <a href="#!" class="arrow"><i class="fa-solid fa-chevron-right"></i></a> -->
+              </li>
+            </ul>
+
+            <img class="img-navleft" src="./source/navlef.jpg" alt="" />
+          </div>
+
+          <div class="nav-right">
+            <div class="slideshow-container">
+              <!-- Full-width images with number and caption text -->
+              <div class="mySlides fade">
+                <!-- <div class="numbertext">1 / 3</div> -->
+                <img
+                  class="silde-img"
+                  src="./source/sl1.jpg"
+                  style="width: 100%"
+                />
+                <div class="text"></div>
+              </div>
+
+              <div class="mySlides fade">
+                <!-- <div class="numbertext">2 / 3</div> -->
+                <img
+                  class="silde-img"
+                  src="./source/sl2.jpg"
+                  style="width: 100%"
+                />
+                <div class="text"></div>
+              </div>
+
+              <div class="mySlides fade">
+                <!-- <div class="numbertext">3 / 3</div> -->
+                <img
+                  class="silde-img"
+                  src="./source/sl3.jpg"
+                  style="width: 100%"
+                />
+                <div class="text"></div>
+              </div>
+
+              <div class="mySlides fade">
+                <!-- <div class="numbertext">3 / 3</div> -->
+                <img
+                  class="silde-img"
+                  src="./source/sl4.jpg"
+                  style="width: 100%"
+                />
+                <div class="text"></div>
+              </div>
+
+              <!-- Next and previous buttons -->
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+              <!-- The dots/circles -->
+              <!-- <div class="slide-dot" style="text-align: center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+              </div> -->
+            </div>
+            <br />
+
+            <div class="wrapper">
+              <h2 class="title">Tiện Ích, Dịch Vụ</h2>
+
+              <i id="left" class="fa-solid fa-chevron-left arrow"></i>
+              <div class="service-detail">
+                <div class="carousel">
+                  <img src="source/sieu_thi_con_cung.png" alt="" />
+                  <span
+                    >Siêu Thị <br />
+                    Con Cưng</span
+                  >
+                </div>
+
+                <div class="carousel">
+                  <img src="./source/livesansale.png" alt="" />
+                  <span
+                    >Live Stream <br />
+                    Săn Sale
+                  </span>
+                </div>
+
+                <div class="carousel">
+                  <img src="/source/cskh_goi_dien.png" alt="" />
+                  <span>CSKH<br />Gọi Điện</span>
+                </div>
+
+                <div class="carousel">
+                  <img src="./source/chonmualai.png" alt="" />
+                  <span>Chọn<br />Mua Lại</span>
+                </div>
+
+                <div class="carousel">
+                  <img src="source/tientichluy.png" alt="" />
+                  <span
+                    >Tiền <br />
+                    Tích Lũy</span
+                  >
+                </div>
+
+                <div class="carousel">
+                  <img src="source/app_vieon.png" alt="" />
+                  <span>VieON<br />Giải Trí</span>
+                </div>
+
+                <div class="carousel">
+                  <img src="source/the_thanh_vien.png" alt="" />
+                  <span>Thẻ<br />Ưu Đãi</span>
+                </div>
+
+                <div class="carousel">
+                  <img src="source/app_genetica.png" alt="" />
+                  <span>Genetica<br />Giải Mã Gen</span>
+                </div>
+
+                <div class="carousel">
+                  <img src="source/uu_dai_vip.png" alt="" />
+                  <span>Ưu Đãi<br />VIP</span>
+                </div>
+
+                <div class="carousel">
+                  <img src="source/nha_thuoc_gan_ban.png" alt="" />
+                  <span>Nhà Thuốc<br />Gần Nhà</span>
+                </div>
+
+                <div class="carousel">
+                  <img src="source/tap_chi_pink.png" alt="" />
+                  <span>Tạp Trí<br />Pink</span>
+                </div>
+              </div>
+              <i class="fa-solid fa-chevron-right arrow"></i>
+            </div>
+
+            <div class="milk-diapers">
+              <div class="title-milk">
+                <h2 class="title">Săn Quà Tã Sữa</h2>
+                <a href="#!"
+                  >Săn Ngay <i class="fa-solid fa-chevron-right"></i
+                ></a>
+              </div>
+              <i id="left" class="fa-solid fa-chevron-left arrow"></i>
+              <div class="milk">
+                <div class="milk-detail">
+                  <a href="/CTSP.html"><img src="./source/produc4.jpg" alt="" /></a>
+                  <div class="name-milk">
+                    <a href="/CTSP.html"><span>Sữa NAN Supreme Số 3...</span></a>
+                  </div>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(419)</span>
+                  </div>
+                  <div class="price">
+                    <span>355.500 <u>đ</u></span>
+                    <span class="milk-sale">-10%</span>
+                    <button><i class="fa-solid fa-cart-plus"></i></button>
+                  </div>
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/product3-2.jpg" alt="" />
+                  <div class="name-milk">
+                    <span>Sữa Abbott Grow 1,7kg...</span>
+                  </div>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(195)</span>
+                  </div>
+                  <div class="price">
+                    <span>470.000 <u>đ</u></span>
+                    <span class="milk-sale">-15%</span>
+                    <button><i class="fa-solid fa-cart-plus"></i></button>
+                  </div>
+
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/produc6.jpg" alt="" />
+                  <div class="name-milk">
+                    <span>Sữa Similac 5G 900g...</span>
+                  </div>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(256)</span>
+                  </div>
+                  <div class="price">
+                    <span>590.000 <u>đ</u></span>
+                    <span class="milk-sale">-12%</span>
+                    <button><i class="fa-solid fa-cart-plus"></i></button>
+                  </div>
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/produc4-2.jpg" alt="" />
+                  <div class="name-milk">
+                    <span>Sữa Enfagrow A+ bổ...</span>
+                  </div>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(449)</span>
+                  </div>
+                  <div class="price">
+                    <span>409.000 <u>đ</u></span>
+                    <span class="milk-sale">-10%</span>
+                    <button><i class="fa-solid fa-cart-plus"></i></button>
+                  </div>
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/tasua1.png" alt="" />
+                  <div class="name-milk">
+                    <span>Tã dán sơ sinh Huggies...</span>
+                  </div>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(449)</span>
+                  </div>
+                  <div class="price">
+                    <span>166.500 <u>đ</u></span>
+                    <span class="milk-sale">-10%</span>
+                  </div>
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/anhsua6.png" alt="" />
+                  <div class="name-milk">
+                    <span>Combo 2 Sữa Similac...</span>
+                  </div>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(249)</span>
+                  </div>
+                  <div class="price">
+                    <span>700.000 <u>đ</u></span>
+                    <span class="milk-sale">-10%</span>
+                  </div>
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/anhsua8.png" alt="" />
+                  <div class="name-milk">
+                    <span>Combo 3 Abbott Grow...</span>
+                  </div>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(590)</span>
+                  </div>
+                  <div class="price">
+                    <span>1.450.000 <u>đ</u></span>
+                    <span class="milk-sale">-10%</span>
+                  </div>
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/anhsua9.png" alt="" />
+                  <div class="name-milk">
+                    <span>Sữa Enfagrow A+ số 4...</span>
+                  </div>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(120)</span>
+                  </div>
+                  <div class="price">
+                    <span>565.000 <u>đ</u></span>
+                    <span class="milk-sale">-15%</span>
+                  </div>
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/anhta1.png" alt="" />
+                  <div class="name-milk">
+                    <span>Tã dán sơ sinh Huggies...</span>
+                  </div>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(449)</span>
+                  </div>
+                  <div class="price">
+                    <span>166.500 <u>đ</u></span>
+                    <span class="milk-sale">-10%</span>
+                  </div>
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/anhta8.png" alt="" />
+                  <div class="name-milk">
+                    <span>Bỉm tã dán Genki Newb...</span>
+                  </div>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(262)</span>
+                  </div>
+                  <div class="price">
+                    <span>175.500 <u>đ</u></span>
+                    <span class="milk-sale">-6%</span>
+                  </div>
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/anhta7.png" alt="" />
+                  <div class="name-milk">
+                    <span>Tã dán Molfix thiên...</span>
+                  </div>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(118)</span>
+                  </div>
+                  <div class="price">
+                    <span>166.000 <u>đ</u></span>
+                    <span class="milk-sale">-4%</span>
+                  </div>
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/anhsua7.png" alt="" />
+                  <div class="name-milk">
+                    <span>Combo 2 Sữa Wakodo...</span>
+                  </div>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(409)</span>
+                  </div>
+                  <div class="price">
+                    <span>438.000 <u>đ</u></span>
+                    <!-- <span class="milk-sale">-10%</span> -->
+                  </div>
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/anhta6.png" alt="" />
+                  <div class="name-milk">
+                    <span>Tã dán Nhật Bản Takato...</span>
+                  </div>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(312)</span>
+                  </div>
+                  <div class="price">
+                    <span>325.000 <u>đ</u></span>
+                    <span class="milk-sale">-5%</span>
+                  </div>
+                </div>
+              </div>
+              <i class="fa-solid fa-chevron-right arrow"></i>
+            </div>
+
+            <!-- sale sốc -->
+            <div class="milk-diapers">
+              <div class="title-sale">
+                <!-- <h2 class="title">Giá <i class="fa-solid fa-bolt-lightning"></i> <strong>Sốc</strong> </h2> -->
+                <h2 class="title">
+                  Giá <img src="./source/flash.svg" alt="" />
+                  <strong>Sốc</strong>
+                </h2>
+                <!-- <span id="day">10</span> -->
+                <span class="time">
+                  <span id="hour">00</span>
+                  <strong class="space">:</strong>
+                  <span id="minute">00</span>
+                  <strong class="space">:</strong>
+                  <span id="seconds">00</span>
+                </span>
+                <a href="#!">
+                  Xem tất cả <i class="fa-solid fa-chevron-right"></i
+                ></a>
+              </div>
+              <i id="left" class="fa-solid fa-chevron-left arrow"></i>
+              <div class="milk">
+                <div class="milk-detail">
+                  <img src="./source/produc2.jpg" alt="" />
+                  <div class="name-milk">
+                    <a href="CTSP.html"><span>Sữa Ensure Gold Trẻ 2T ...</span></a>
+                  </div>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(419)</span>
+                  </div>
+                  <div class="price">
+                    <span>355.500 <u>đ</u></span>
+                    <span class="milk-sale">-10%</span>
+                  </div>
+
+                  <div class="qty-sold">
+                    <img src="./source/fire-deal.svg" alt="" />
+                    <span>Bán chạy</span>
+                    <div class="qty"></div>
+                  </div>
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/produc8.jpg" alt="" />
+                  <div class="name-milk">
+                    <span>Sữa Abbott Grow 1,7kg...</span>
+                  </div>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(195)</span>
+                  </div>
+                  <div class="price">
+                    <span>470.000 <u>đ</u></span>
+                    <span class="milk-sale">-15%</span>
+                  </div>
+                  <div class="qty-sold">
+                    <img src="./source/fire-deal.svg" alt="" />
+                    <span>Bán chạy</span>
+                    <div class="qty"></div>
+                  </div>
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/produc9.jpg" alt="" />
+                  <div class="name-milk">
+                    <span>Sữa Similac 5G 900g...</span>
+                  </div>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(256)</span>
+                  </div>
+                  <div class="price">
+                    <span>590.000 <u>đ</u></span>
+                    <!-- <span class="milk-sale">-10%</span> -->
+                  </div>
+                  <div class="qty-sold">
+                    <img src="./source/fire-deal.svg" alt="" />
+                    <span>Bán chạy</span>
+                    <div class="qty"></div>
+                  </div>
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/produc10.jpg" alt="" />
+                  <div class="name-milk">
+                    <span>Meiji Kids Formula bổ...</span>
+                  </div>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(449)</span>
+                  </div>
+                  <div class="price">
+                    <span>409.000 <u>đ</u></span>
+                    <span class="milk-sale">-10%</span>
+                  </div>
+                  <div class="qty-sold">
+                    <img src="./source/fire-deal.svg" alt="" />
+                    <span>Bán chạy</span>
+                    <div class="qty"></div>
+                  </div>
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/tasua1.png" alt="" />
+                  <div class="name-milk">
+                    <span>Tã dán sơ sinh Huggies...</span>
+                  </div>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(449)</span>
+                  </div>
+                  <div class="price">
+                    <span>166.500 <u>đ</u></span>
+                    <span class="milk-sale">-10%</span>
+                  </div>
+                  <div class="qty-sold">
+                    <img src="./source/fire-deal.svg" alt="" />
+                    <span>Bán chạy</span>
+                    <div class="qty"></div>
+                  </div>
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/anhsua6.png" alt="" />
+                  <div class="name-milk">
+                    <span>Combo 2 Sữa Similac...</span>
+                  </div>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(249)</span>
+                  </div>
+                  <div class="price">
+                    <span>700.000 <u>đ</u></span>
+                    <span class="milk-sale">-10%</span>
+                  </div>
+                  <div class="qty-sold">
+                    <img src="./source/fire-deal.svg" alt="" />
+                    <span>Bán chạy</span>
+                    <div class="qty"></div>
+                  </div>
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/anhsua8.png" alt="" />
+                  <div class="name-milk">
+                    <span>Combo 3 Abbott Grow...</span>
+                  </div>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(590)</span>
+                  </div>
+                  <div class="price">
+                    <span>1.450.000 <u>đ</u></span>
+                    <span class="milk-sale">-10%</span>
+                  </div>
+                  <div class="qty-sold">
+                    <img src="./source/fire-deal.svg" alt="" />
+                    <span>Bán chạy</span>
+                    <div class="qty"></div>
+                  </div>
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/anhsua9.png" alt="" />
+                  <div class="name-milk">
+                    <span>Sữa Enfagrow A+ số 4...</span>
+                  </div>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(120)</span>
+                  </div>
+                  <div class="price">
+                    <span>565.000 <u>đ</u></span>
+                    <span class="milk-sale">-15%</span>
+                  </div>
+                  <div class="qty-sold">
+                    <img src="./source/fire-deal.svg" alt="" />
+                    <span>Bán chạy</span>
+                    <div class="qty"></div>
+                  </div>
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/anhta1.png" alt="" />
+                  <div class="name-milk">
+                    <span>Tã dán sơ sinh Huggies...</span>
+                  </div>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(449)</span>
+                  </div>
+                  <div class="price">
+                    <span>166.500 <u>đ</u></span>
+                    <span class="milk-sale">-10%</span>
+                  </div>
+                  <div class="qty-sold">
+                    <img src="./source/fire-deal.svg" alt="" />
+                    <span>Bán chạy</span>
+                    <div class="qty"></div>
+                  </div>
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/anhta8.png" alt="" />
+                  <div class="name-milk">
+                    <span>Bỉm tã dán Genki Newb...</span>
+                  </div>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(262)</span>
+                  </div>
+                  <div class="price">
+                    <span>175.500 <u>đ</u></span>
+                    <span class="milk-sale">-6%</span>
+                  </div>
+                  <div class="qty-sold">
+                    <img src="./source/fire-deal.svg" alt="" />
+                    <span>Bán chạy</span>
+                    <div class="qty"></div>
+                  </div>
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/anhta7.png" alt="" />
+                  <div class="name-milk">
+                    <span>Tã dán Molfix thiên...</span>
+                  </div>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(118)</span>
+                  </div>
+                  <div class="price">
+                    <span>166.000 <u>đ</u></span>
+                    <span class="milk-sale">-4%</span>
+                  </div>
+                  <div class="qty-sold">
+                    <img src="./source/fire-deal.svg" alt="" />
+                    <span>Bán chạy</span>
+                    <div class="qty"></div>
+                  </div>
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/anhsua7.png" alt="" />
+                  <div class="name-milk">
+                    <span>Combo 2 Sữa Wakodo...</span>
+                  </div>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(409)</span>
+                  </div>
+                  <div class="price">
+                    <span>438.000 <u>đ</u></span>
+                    <!-- <span class="milk-sale">-10%</span> -->
+                  </div>
+                  <div class="qty-sold">
+                    <img src="./source/fire-deal.svg" alt="" />
+                    <span>Bán chạy</span>
+                    <div class="qty"></div>
+                  </div>
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/anhta6.png" alt="" />
+                  <div class="name-milk">
+                    <span>Tã dán Nhật Bản Takato...</span>
+                  </div>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(312)</span>
+                  </div>
+                  <div class="price">
+                    <span>325.000 <u>đ</u></span>
+                    <span class="milk-sale">-5%</span>
+                  </div>
+                  <div class="qty-sold">
+                    <img src="./source/fire-deal.svg" alt="" />
+                    <span>Bán chạy</span>
+                    <div class="qty"></div>
+                  </div>
+                </div>
+              </div>
+              <i class="fa-solid fa-chevron-right arrow"></i>
+            </div>
+
+            <div class="milk-diapers">
+              <div class="title-milk">
+                <h2 class="title">Mua Nhanh Giảm Ngay</h2>
+                <a href="#!"
+                  >Xem tất cả <i class="fa-solid fa-chevron-right"></i
+                ></a>
+              </div>
+              <i id="left" class="fa-solid fa-chevron-left arrow"></i>
+              <div class="milk">
+                <div class="milk-detail">
+                  <img src="./source/anhsua7.png" alt="" />
+                  <div class="name-milk">
+                    <span>Vinamilk Optimum...</span>
+                  </div>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(419)</span>
+                  </div>
+                  <div class="price">
+                    <span>355.500 <u>đ</u></span>
+                    <span class="milk-sale">-10%</span>
+                  </div>
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/anhsua3.png" alt="" />
+                  <div class="name-milk">
+                    <span>Sữa Abbott Grow 1,7kg...</span>
+                  </div>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(195)</span>
+                  </div>
+                  <div class="price">
+                    <span>470.000 <u>đ</u></span>
+                    <span class="milk-sale">-15%</span>
+                  </div>
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/anhsua4.png" alt="" />
+                  <div class="name-milk">
+                    <span>Sữa Similac 5G 900g...</span>
+                  </div>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(256)</span>
+                  </div>
+                  <div class="price">
+                    <span>590.000 <u>đ</u></span>
+                    <span class="milk-sale">-10%</span>
+                  </div>
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/anhsua5.png" alt="" />
+                  <div class="name-milk">
+                    <span>Meiji Kids Formula bổ...</span>
+                  </div>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(449)</span>
+                  </div>
+                  <div class="price">
+                    <span>409.000 <u>đ</u></span>
+                    <span class="milk-sale">-10%</span>
+                  </div>
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/tasua1.png" alt="" />
+                  <div class="name-milk">
+                    <span>Tã dán sơ sinh Huggies...</span>
+                  </div>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(449)</span>
+                  </div>
+                  <div class="price">
+                    <span>166.500 <u>đ</u></span>
+                    <span class="milk-sale">-10%</span>
+                  </div>
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/anhsua6.png" alt="" />
+                  <div class="name-milk">
+                    <span>Combo 2 Sữa Similac...</span>
+                  </div>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(249)</span>
+                  </div>
+                  <div class="price">
+                    <span>700.000 <u>đ</u></span>
+                    <span class="milk-sale">-10%</span>
+                  </div>
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/anhsua8.png" alt="" />
+                  <div class="name-milk">
+                    <span>Combo 3 Abbott Grow...</span>
+                  </div>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(590)</span>
+                  </div>
+                  <div class="price">
+                    <span>1.450.000 <u>đ</u></span>
+                    <span class="milk-sale">-10%</span>
+                  </div>
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/anhsua9.png" alt="" />
+                  <div class="name-milk">
+                    <span>Sữa Enfagrow A+ số 4...</span>
+                  </div>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(120)</span>
+                  </div>
+                  <div class="price">
+                    <span>565.000 <u>đ</u></span>
+                    <span class="milk-sale">-15%</span>
+                  </div>
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/anhta1.png" alt="" />
+                  <div class="name-milk">
+                    <span>Tã dán sơ sinh Huggies...</span>
+                  </div>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(449)</span>
+                  </div>
+                  <div class="price">
+                    <span>166.500 <u>đ</u></span>
+                    <span class="milk-sale">-10%</span>
+                  </div>
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/anhta8.png" alt="" />
+                  <div class="name-milk">
+                    <span>Bỉm tã dán Genki Newb...</span>
+                  </div>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(262)</span>
+                  </div>
+                  <div class="price">
+                    <span>175.500 <u>đ</u></span>
+                    <span class="milk-sale">-6%</span>
+                  </div>
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/anhta7.png" alt="" />
+                  <div class="name-milk">
+                    <span>Tã dán Molfix thiên...</span>
+                  </div>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(118)</span>
+                  </div>
+                  <div class="price">
+                    <span>166.000 <u>đ</u></span>
+                    <span class="milk-sale">-4%</span>
+                  </div>
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/anhsua7.png" alt="" />
+                  <div class="name-milk">
+                    <span>Combo 2 Sữa Wakodo...</span>
+                  </div>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(409)</span>
+                  </div>
+                  <div class="price">
+                    <span>438.000 <u>đ</u></span>
+                    <!-- <span class="milk-sale">-10%</span> -->
+                  </div>
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/anhta6.png" alt="" />
+                  <div class="name-milk">
+                    <span>Tã dán Nhật Bản Takato...</span>
+                  </div>
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(312)</span>
+                  </div>
+                  <div class="price">
+                    <span>325.000 <u>đ</u></span>
+                    <span class="milk-sale">-5%</span>
+                  </div>
+                </div>
+              </div>
+              <i class="fa-solid fa-chevron-right arrow"></i>
+            </div>
+
+            <!-- Ưu đãi từ thương hiệu  -->
+
+            <div class="milk-diapers">
+              <div class="title-milk">
+                <h2 class="title">Ưu Đãi Từ Thương Hiệu</h2>
+                <a href="#!"
+                  >Xem tất cả <i class="fa-solid fa-chevron-right"></i
+                ></a>
+              </div>
+              <i id="left" class="fa-solid fa-chevron-left arrow"></i>
+              <div class="milk">
+                <div class="milk-detail">
+                  <img src="./source/thken.jpg" alt="" />
+                  <div class="trademark">
+                    <img src="./source/th2.png" alt="" />
+                  </div>
+                  <a class="desc-link" href=""
+                    ><img class="fire" src="./source/fire.png" alt="" /><span
+                      class="desc"
+                      >Giảm 50%</span
+                    ></a
+                  >
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/thauto.jpg" alt="" />
+                  <div class="trademark">
+                    <img src="./source/thauto-1.png" alt="" />
+                  </div>
+                  <a class="desc-link" href=""
+                    ><img class="fire" src="./source/fire.png" alt="" /><span
+                      class="desc"
+                      >Giảm 80%</span
+                    ></a
+                  >
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/thbaby-2.jpg" alt="" />
+                  <div class="trademark">
+                    <img src="./source/thbaby-1.png" alt="" />
+                  </div>
+                  <a class="desc-link" href=""
+                    ><img class="fire" src="./source/fire.png" alt="" /><span
+                      class="desc"
+                      >Giảm 10%</span
+                    ></a
+                  >
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/thaprica.jpg" alt="" />
+                  <div class="trademark">
+                    <img src="./source/thaprica-1.png" alt="" />
+                  </div>
+                  <a class="desc-link" href=""
+                    ><img class="fire" src="./source/fire.png" alt="" /><span
+                      class="desc"
+                      >Giảm 20%</span
+                    ></a
+                  >
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/tasua1.png" alt="" />
+                  <div class="trademark">
+                    <img src="./source/thuonghieu1.png" alt="" />
+                  </div>
+                  <a class="desc-link" href=""
+                    ><img class="fire" src="./source/fire.png" alt="" /><span
+                      class="desc"
+                      >Giảm 80%</span
+                    ></a
+                  >
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/anhsua6.png" alt="" />
+                  <div class="trademark">
+                    <img src="./source/thuonghieu1.png" alt="" />
+                  </div>
+                  <a class="desc-link" href=""
+                    ><img class="fire" src="./source/fire.png" alt="" /><span
+                      class="desc"
+                      >Giảm 80%</span
+                    ></a
+                  >
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/anhsua8.png" alt="" />
+                  <div class="trademark">
+                    <img src="./source/thuonghieu1.png" alt="" />
+                  </div>
+                  <a class="desc-link" href=""
+                    ><img class="fire" src="./source/fire.png" alt="" /><span
+                      class="desc"
+                      >Giảm 80%</span
+                    ></a
+                  >
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/anhsua9.png" alt="" />
+                  <div class="trademark">
+                    <img src="./source/thuonghieu1.png" alt="" />
+                  </div>
+                  <a class="desc-link" href=""
+                    ><img class="fire" src="./source/fire.png" alt="" /><span
+                      class="desc"
+                      >Giảm 80%</span
+                    ></a
+                  >
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/anhta1.png" alt="" />
+                  <div class="trademark">
+                    <img src="./source/thuonghieu1.png" alt="" />
+                  </div>
+                  <a class="desc-link" href=""
+                    ><img class="fire" src="./source/fire.png" alt="" /><span
+                      class="desc"
+                      >Giảm 80%</span
+                    ></a
+                  >
+                </div>
+
+                <div class="milk-detail">
+                  <img src="./source/anhta8.png" alt="" />
+                  <div class="trademark">
+                    <img src="./source/thuonghieu1.png" alt="" />
+                  </div>
+                  <a class="desc-link" href=""
+                    ><img class="fire" src="./source/fire.png" alt="" /><span
+                      class="desc"
+                      >Giảm 80%</span
+                    ></a
+                  >
+                </div>
+              </div>
+              <i class="fa-solid fa-chevron-right arrow"></i>
+            </div>
+
+            <!-- bán chạy -->
+
+            <div class="selling">
+              <div class="title-selling">
+                <h2 class="title-sell action">Bán Chạy</h2>
+                <h2 class="title-sell">Xu hướng</h2>
+                <h2 class="title-sell">Top review tốt</h2>
+                <h2 class="title-sell">Top mua lại</h2>
+                <h2 class="title-sell">Top giỏ hàng</h2>
+                <a href="#!"
+                  >Xem tất cả <i class="fa-solid fa-chevron-right"></i
+                ></a>
+              </div>
+
+              <div class="tabs">
+                <button class="tab-item tab-item-1 action">
+                  <a href="#!"><img src="./source/banchay1.png" alt="" /></a>
+                </button>
+
+                <button class="tab-item tab-item-2">
+                  <a href="#!"><img src="./source/banchay2.png" alt="" /></a>
+                </button>
+
+                <button class="tab-item tab-item-3">
+                  <a href="#!"><img src="./source/banchay3.png" alt="" /></a>
+                </button>
+
+                <button class="tab-item tab-item-4">
+                  <a href="#!"><img src="./source/banchay4.png" alt="" /></a>
+                </button>
+
+                <button class="tab-item tab-item-5">
+                  <a href="#!"><img src="./source/banchay5.png" alt="" /></a>
+                </button>
+              </div>
+
+              <div class="tab-content">
+                <!-- bán chạy -->
+                <div class="tab-pane action">
+                  <i id="left" class="fa-solid fa-chevron-left arrow"></i>
+                  <div class="sell-detail">
+                    <div class="milk-detail">
+                      <img src="./source/anhsua6.png" alt="" />
+                      <div class="name-milk">
+                        <span>Bỉm tã dán Genki Newb...</span>
+                      </div>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(262)</span>
+                      </div>
+                      <div class="price">
+                        <span>175.500 <u>đ</u></span>
+                        <span class="milk-sale">-6%</span>
+                      </div>
+                    </div>
+
+                    <div class="milk-detail">
+                      <img src="./source/anhsua7.png" alt="" />
+                      <div class="name-milk">
+                        <span>Bỉm tã dán Genki Newb...</span>
+                      </div>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(262)</span>
+                      </div>
+                      <div class="price">
+                        <span>175.500 <u>đ</u></span>
+                        <span class="milk-sale">-6%</span>
+                      </div>
+                    </div>
+
+                    <div class="milk-detail">
+                      <img src="./source/anhta2.png" alt="" />
+                      <div class="name-milk">
+                        <span>Bỉm tã dán Genki Newb...</span>
+                      </div>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(262)</span>
+                      </div>
+                      <div class="price">
+                        <span>175.500 <u>đ</u></span>
+                        <span class="milk-sale">-6%</span>
+                      </div>
+                    </div>
+
+                    <div class="milk-detail">
+                      <img src="./source/anhta6.png" alt="" />
+                      <div class="name-milk">
+                        <span>Bỉm tã dán Genki Newb...</span>
+                      </div>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(262)</span>
+                      </div>
+                      <div class="price">
+                        <span>175.500 <u>đ</u></span>
+                        <span class="milk-sale">-6%</span>
+                      </div>
+                    </div>
+
+                    <div class="milk-detail">
+                      <img src="./source/anhta7.png" alt="" />
+                      <div class="name-milk">
+                        <span>Bỉm tã dán Genki Newb...</span>
+                      </div>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(262)</span>
+                      </div>
+                      <div class="price">
+                        <span>175.500 <u>đ</u></span>
+                        <span class="milk-sale">-6%</span>
+                      </div>
+                    </div>
+
+                    <div class="milk-detail">
+                      <img src="./source/anhta8.png" alt="" />
+                      <div class="name-milk">
+                        <span>Bỉm tã dán Genki Newb...</span>
+                      </div>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(262)</span>
+                      </div>
+                      <div class="price">
+                        <span>175.500 <u>đ</u></span>
+                        <span class="milk-sale">-6%</span>
+                      </div>
+                    </div>
+
+                    <div class="milk-detail">
+                      <img src="./source/anhta8.png" alt="" />
+                      <div class="name-milk">
+                        <span>Bỉm tã dán Genki Newb...</span>
+                      </div>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(262)</span>
+                      </div>
+                      <div class="price">
+                        <span>175.500 <u>đ</u></span>
+                        <span class="milk-sale">-6%</span>
+                      </div>
+                    </div>
+
+                    <div class="milk-detail">
+                      <img src="./source/anhta8.png" alt="" />
+                      <div class="name-milk">
+                        <span>Bỉm tã dán Genki Newb...</span>
+                      </div>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(262)</span>
+                      </div>
+                      <div class="price">
+                        <span>175.500 <u>đ</u></span>
+                        <span class="milk-sale">-6%</span>
+                      </div>
+                    </div>
+                  </div>
+                  <i class="fa-solid fa-chevron-right arrow"></i>
+                </div>
+
+                <!-- xu hướng -->
+                <div class="tab-pane">
+                  <i id="left" class="fa-solid fa-chevron-left arrow"></i>
+                  <div class="sell-detail">
+                    <div class="milk-detail">
+                      <img src="./source/sale2.png" alt="" />
+                      <div class="name-milk">
+                        <span>Bỉm tã dán Genki Newb...</span>
+                      </div>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(262)</span>
+                      </div>
+                      <div class="price">
+                        <span>175.500 <u>đ</u></span>
+                        <span class="milk-sale">-6%</span>
+                      </div>
+                    </div>
+
+                    <div class="milk-detail">
+                      <img src="./source/anhta8.png" alt="" />
+                      <div class="name-milk">
+                        <span>Bỉm tã dán Genki Newb...</span>
+                      </div>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(262)</span>
+                      </div>
+                      <div class="price">
+                        <span>175.500 <u>đ</u></span>
+                        <span class="milk-sale">-6%</span>
+                      </div>
+                    </div>
+
+                    <div class="milk-detail">
+                      <img src="./source/anhta8.png" alt="" />
+                      <div class="name-milk">
+                        <span>Bỉm tã dán Genki Newb...</span>
+                      </div>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(262)</span>
+                      </div>
+                      <div class="price">
+                        <span>175.500 <u>đ</u></span>
+                        <span class="milk-sale">-6%</span>
+                      </div>
+                    </div>
+
+                    <div class="milk-detail">
+                      <img src="./source/anhta8.png" alt="" />
+                      <div class="name-milk">
+                        <span>Bỉm tã dán Genki Newb...</span>
+                      </div>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(262)</span>
+                      </div>
+                      <div class="price">
+                        <span>175.500 <u>đ</u></span>
+                        <span class="milk-sale">-6%</span>
+                      </div>
+                    </div>
+
+                    <div class="milk-detail">
+                      <img src="./source/anhta8.png" alt="" />
+                      <div class="name-milk">
+                        <span>Bỉm tã dán Genki Newb...</span>
+                      </div>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(262)</span>
+                      </div>
+                      <div class="price">
+                        <span>175.500 <u>đ</u></span>
+                        <span class="milk-sale">-6%</span>
+                      </div>
+                    </div>
+
+                    <div class="milk-detail">
+                      <img src="./source/anhta8.png" alt="" />
+                      <div class="name-milk">
+                        <span>Bỉm tã dán Genki Newb...</span>
+                      </div>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(262)</span>
+                      </div>
+                      <div class="price">
+                        <span>175.500 <u>đ</u></span>
+                        <span class="milk-sale">-6%</span>
+                      </div>
+                    </div>
+
+                    <div class="milk-detail">
+                      <img src="./source/anhta8.png" alt="" />
+                      <div class="name-milk">
+                        <span>Bỉm tã dán Genki Newb...</span>
+                      </div>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(262)</span>
+                      </div>
+                      <div class="price">
+                        <span>175.500 <u>đ</u></span>
+                        <span class="milk-sale">-6%</span>
+                      </div>
+                    </div>
+
+                    <div class="milk-detail">
+                      <img src="./source/anhta8.png" alt="" />
+                      <div class="name-milk">
+                        <span>Bỉm tã dán Genki Newb...</span>
+                      </div>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(262)</span>
+                      </div>
+                      <div class="price">
+                        <span>175.500 <u>đ</u></span>
+                        <span class="milk-sale">-6%</span>
+                      </div>
+                    </div>
+                  </div>
+                  <i class="fa-solid fa-chevron-right arrow"></i>
+                </div>
+
+                <!-- top review tốt -->
+                <div class="tab-pane">
+                  <i id="left" class="fa-solid fa-chevron-left arrow"></i>
+                  <div class="sell-detail">
+                    <div class="milk-detail">
+                      <img src="./source/sale2.png" alt="" />
+                      <div class="name-milk">
+                        <span>Bỉm tã dán Genki Newb...</span>
+                      </div>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(262)</span>
+                      </div>
+                      <div class="price">
+                        <span>175.500 <u>đ</u></span>
+                        <span class="milk-sale">-6%</span>
+                      </div>
+                    </div>
+
+                    <div class="milk-detail">
+                      <img src="./source/anhta8.png" alt="" />
+                      <div class="name-milk">
+                        <span>Bỉm tã dán Genki Newb...</span>
+                      </div>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(262)</span>
+                      </div>
+                      <div class="price">
+                        <span>175.500 <u>đ</u></span>
+                        <span class="milk-sale">-6%</span>
+                      </div>
+                    </div>
+
+                    <div class="milk-detail">
+                      <img src="./source/anhta8.png" alt="" />
+                      <div class="name-milk">
+                        <span>Bỉm tã dán Genki Newb...</span>
+                      </div>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(262)</span>
+                      </div>
+                      <div class="price">
+                        <span>175.500 <u>đ</u></span>
+                        <span class="milk-sale">-6%</span>
+                      </div>
+                    </div>
+
+                    <div class="milk-detail">
+                      <img src="./source/anhta8.png" alt="" />
+                      <div class="name-milk">
+                        <span>Bỉm tã dán Genki Newb...</span>
+                      </div>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(262)</span>
+                      </div>
+                      <div class="price">
+                        <span>175.500 <u>đ</u></span>
+                        <span class="milk-sale">-6%</span>
+                      </div>
+                    </div>
+
+                    <div class="milk-detail">
+                      <img src="./source/anhta8.png" alt="" />
+                      <div class="name-milk">
+                        <span>Bỉm tã dán Genki Newb...</span>
+                      </div>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(262)</span>
+                      </div>
+                      <div class="price">
+                        <span>175.500 <u>đ</u></span>
+                        <span class="milk-sale">-6%</span>
+                      </div>
+                    </div>
+
+                    <div class="milk-detail">
+                      <img src="./source/anhta8.png" alt="" />
+                      <div class="name-milk">
+                        <span>Bỉm tã dán Genki Newb...</span>
+                      </div>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(262)</span>
+                      </div>
+                      <div class="price">
+                        <span>175.500 <u>đ</u></span>
+                        <span class="milk-sale">-6%</span>
+                      </div>
+                    </div>
+
+                    <div class="milk-detail">
+                      <img src="./source/anhta8.png" alt="" />
+                      <div class="name-milk">
+                        <span>Bỉm tã dán Genki Newb...</span>
+                      </div>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(262)</span>
+                      </div>
+                      <div class="price">
+                        <span>175.500 <u>đ</u></span>
+                        <span class="milk-sale">-6%</span>
+                      </div>
+                    </div>
+
+                    <div class="milk-detail">
+                      <img src="./source/anhta8.png" alt="" />
+                      <div class="name-milk">
+                        <span>Bỉm tã dán Genki Newb...</span>
+                      </div>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(262)</span>
+                      </div>
+                      <div class="price">
+                        <span>175.500 <u>đ</u></span>
+                        <span class="milk-sale">-6%</span>
+                      </div>
+                    </div>
+                  </div>
+                  <i class="fa-solid fa-chevron-right arrow"></i>
+                </div>
+
+                <!-- top mua lại -->
+                <div class="tab-pane">
+                  <i id="left" class="fa-solid fa-chevron-left arrow"></i>
+                  <div class="sell-detail">
+                    <div class="milk-detail">
+                      <img src="./source/sale2.png" alt="" />
+                      <div class="name-milk">
+                        <span>Bỉm tã dán Genki Newb...</span>
+                      </div>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(262)</span>
+                      </div>
+                      <div class="price">
+                        <span>175.500 <u>đ</u></span>
+                        <span class="milk-sale">-6%</span>
+                      </div>
+                    </div>
+
+                    <div class="milk-detail">
+                      <img src="./source/anhta8.png" alt="" />
+                      <div class="name-milk">
+                        <span>Bỉm tã dán Genki Newb...</span>
+                      </div>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(262)</span>
+                      </div>
+                      <div class="price">
+                        <span>175.500 <u>đ</u></span>
+                        <span class="milk-sale">-6%</span>
+                      </div>
+                    </div>
+
+                    <div class="milk-detail">
+                      <img src="./source/anhta8.png" alt="" />
+                      <div class="name-milk">
+                        <span>Bỉm tã dán Genki Newb...</span>
+                      </div>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(262)</span>
+                      </div>
+                      <div class="price">
+                        <span>175.500 <u>đ</u></span>
+                        <span class="milk-sale">-6%</span>
+                      </div>
+                    </div>
+
+                    <div class="milk-detail">
+                      <img src="./source/anhta8.png" alt="" />
+                      <div class="name-milk">
+                        <span>Bỉm tã dán Genki Newb...</span>
+                      </div>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(262)</span>
+                      </div>
+                      <div class="price">
+                        <span>175.500 <u>đ</u></span>
+                        <span class="milk-sale">-6%</span>
+                      </div>
+                    </div>
+
+                    <div class="milk-detail">
+                      <img src="./source/anhta8.png" alt="" />
+                      <div class="name-milk">
+                        <span>Bỉm tã dán Genki Newb...</span>
+                      </div>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(262)</span>
+                      </div>
+                      <div class="price">
+                        <span>175.500 <u>đ</u></span>
+                        <span class="milk-sale">-6%</span>
+                      </div>
+                    </div>
+
+                    <div class="milk-detail">
+                      <img src="./source/anhta8.png" alt="" />
+                      <div class="name-milk">
+                        <span>Bỉm tã dán Genki Newb...</span>
+                      </div>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(262)</span>
+                      </div>
+                      <div class="price">
+                        <span>175.500 <u>đ</u></span>
+                        <span class="milk-sale">-6%</span>
+                      </div>
+                    </div>
+
+                    <div class="milk-detail">
+                      <img src="./source/anhta8.png" alt="" />
+                      <div class="name-milk">
+                        <span>Bỉm tã dán Genki Newb...</span>
+                      </div>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(262)</span>
+                      </div>
+                      <div class="price">
+                        <span>175.500 <u>đ</u></span>
+                        <span class="milk-sale">-6%</span>
+                      </div>
+                    </div>
+
+                    <div class="milk-detail">
+                      <img src="./source/anhta8.png" alt="" />
+                      <div class="name-milk">
+                        <span>Bỉm tã dán Genki Newb...</span>
+                      </div>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(262)</span>
+                      </div>
+                      <div class="price">
+                        <span>175.500 <u>đ</u></span>
+                        <span class="milk-sale">-6%</span>
+                      </div>
+                    </div>
+                  </div>
+                  <i class="fa-solid fa-chevron-right arrow"></i>
+                </div>
+
+                <!-- top giỏ hàng -->
+                <div class="tab-pane">
+                  <i id="left" class="fa-solid fa-chevron-left arrow"></i>
+                  <div class="sell-detail">
+                    <div class="milk-detail">
+                      <img src="./source/sale2.png" alt="" />
+                      <div class="name-milk">
+                        <span>Bỉm tã dán Genki Newb...</span>
+                      </div>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(262)</span>
+                      </div>
+                      <div class="price">
+                        <span>175.500 <u>đ</u></span>
+                        <span class="milk-sale">-6%</span>
+                      </div>
+                    </div>
+
+                    <div class="milk-detail">
+                      <img src="./source/anhta8.png" alt="" />
+                      <div class="name-milk">
+                        <span>Bỉm tã dán Genki Newb...</span>
+                      </div>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(262)</span>
+                      </div>
+                      <div class="price">
+                        <span>175.500 <u>đ</u></span>
+                        <span class="milk-sale">-6%</span>
+                      </div>
+                    </div>
+
+                    <div class="milk-detail">
+                      <img src="./source/anhta8.png" alt="" />
+                      <div class="name-milk">
+                        <span>Bỉm tã dán Genki Newb...</span>
+                      </div>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(262)</span>
+                      </div>
+                      <div class="price">
+                        <span>175.500 <u>đ</u></span>
+                        <span class="milk-sale">-6%</span>
+                      </div>
+                    </div>
+
+                    <div class="milk-detail">
+                      <img src="./source/anhta8.png" alt="" />
+                      <div class="name-milk">
+                        <span>Bỉm tã dán Genki Newb...</span>
+                      </div>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(262)</span>
+                      </div>
+                      <div class="price">
+                        <span>175.500 <u>đ</u></span>
+                        <span class="milk-sale">-6%</span>
+                      </div>
+                    </div>
+
+                    <div class="milk-detail">
+                      <img src="./source/anhta8.png" alt="" />
+                      <div class="name-milk">
+                        <span>Bỉm tã dán Genki Newb...</span>
+                      </div>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(262)</span>
+                      </div>
+                      <div class="price">
+                        <span>175.500 <u>đ</u></span>
+                        <span class="milk-sale">-6%</span>
+                      </div>
+                    </div>
+
+                    <div class="milk-detail">
+                      <img src="./source/anhta8.png" alt="" />
+                      <div class="name-milk">
+                        <span>Bỉm tã dán Genki Newb...</span>
+                      </div>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(262)</span>
+                      </div>
+                      <div class="price">
+                        <span>175.500 <u>đ</u></span>
+                        <span class="milk-sale">-6%</span>
+                      </div>
+                    </div>
+
+                    <div class="milk-detail">
+                      <img src="./source/anhta8.png" alt="" />
+                      <div class="name-milk">
+                        <span>Bỉm tã dán Genki Newb...</span>
+                      </div>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(262)</span>
+                      </div>
+                      <div class="price">
+                        <span>175.500 <u>đ</u></span>
+                        <span class="milk-sale">-6%</span>
+                      </div>
+                    </div>
+
+                    <div class="milk-detail">
+                      <img src="./source/anhta8.png" alt="" />
+                      <div class="name-milk">
+                        <span>Bỉm tã dán Genki Newb...</span>
+                      </div>
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(262)</span>
+                      </div>
+                      <div class="price">
+                        <span>175.500 <u>đ</u></span>
+                        <span class="milk-sale">-6%</span>
+                      </div>
+                    </div>
+                  </div>
+                  <i class="fa-solid fa-chevron-right arrow"></i>
+                </div>
+              </div>
+            </div>
+
+            <!-- Blog -->
+
+            <div class="blog">
+              <div class="pink-title">
+                <img class="pink-img" src="./source/pink.png" alt="" />
+                <a class="pink-xtc" href="#!"
+                  >Xem tất cả <i class="fa-solid fa-chevron-right"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="blog-detail">
+              <div class="slideshow-blog">
+                <div class="mySlide fad">
+                  <img class="blog-img" src="./source/blog13.png" alt="" />
+                </div>
+                <div class="mySlide fad">
+                  <img class="blog-img" src="./source/blog13.png" alt="" />
+                </div>
+
+                <div class="mySlide fad">
+                  <img class="blog-img" src="./source/blog4.png" alt="" />
+                </div>
+
+                <div class="mySlide fad">
+                  <img class="blog-img" src="./source/blog3.png" alt="" />
+                </div>
+                <div class="dot-slide" style="text-align: center">
+                  <span class="dt" onclick="current(1)"> </span>
+                  <span class="dt" onclick="current(2)"> </span>
+                  <span class="dt" onclick="current(3)"> </span>
+                  <span class="dt" onclick="current(4)"> </span>
+
+                  <a class="text-blog"
+                    >Top 5 bánh ăn dặm tốt nhất?</a
+                  >
+                </div>
+              </div>
+
+              <div class="blog-right">
+                <div class="blog-righttop">
+                  <a href="#!"><img src="./source/blog6.png" alt="" /></a>
+                  <div class="name-blog">
+                    <a class="text-name" href="Blog.html"
+                      >Liệt kê 15+ món đồ thiết yếu cần có trong giỏ đồ đi sinh
+                      cho mẹ và bé của con cưng...</a
+                    >
+                  </div>
+                </div>
+
+                <div class="blog-righttop">
+                  <a href="#!"
+                    ><img class="img-blog" src="./source/blog9.png" alt=""
+                  /></a>
+                  <div class="name-blog-2">
+                    <a class="text-name-2" href="#!"
+                      >Top 5 bỉm chống hăm cho bé được tin chọn nhất tại con
+                      cưng</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ---- chủ đề------- -->
+
+            <div class="topic-for-you">
+              <h2 class="title">Chủ đề cho bạn</h2>
+            </div>
+
+            <div class="topic">
+              <div class="topic-detail">
+                <div class="topic-top">
+                  <img class="top-img" src="./source/chude5.png" alt="" />
+                  <span class="topic1"
+                    >Chuẩn bị <br />
+                    mang thai</span
+                  >
+                </div>
+                <div class="topic-bottom-2">
+                  <img class="bottom-img" src="./source/chude9.png" alt="" />
+                  <span class="topic2"
+                    >Phòng khám <br />
+                    sản nhi</span
+                  >
+                </div>
+              </div>
+
+              <div class="topic-detail">
+                <div class="topic-top-1">
+                  <img class="top-img" src="./source/chude12.png" alt="" />
+                  <span class="topic1">
+                    Mẹ <br />
+                    mang thai</span
+                  >
+                </div>
+                <div class="topic-bottom">
+                  <img class="bottom-img" src="./source/chude10.png" alt="" />
+                  <span class="topic2"
+                    >Bệnh viện &<br />
+                    phòng khám</span
+                  >
+                </div>
+              </div>
+
+              <div class="topic-detail-2">
+                <div class="topic-top-2">
+                  <img class="top-img" src="./source/chude11.png" alt="" />
+                  <span class="topic1">
+                    Tuần <br />
+                    thứ 1</span
+                  >
+                </div>
+                <div class="topic-bottom-1">
+                  <img class="bottom-img" src="./source/chude7.png" alt="" />
+                  <span class="topic2">Chăm mẹ<br />sau sinh</span>
+                </div>
+              </div>
+
+              <div class="topic-detail">
+                <div class="topic-top">
+                  <img class="top-img" src="./source/chude1.png" alt="" />
+                  <span class="topic1">
+                    Tuần <br />
+                    thứ 2</span
+                  >
+                </div>
+                <div class="topic-bottom-2">
+                  <img class="bottom-img" src="./source/chude6.png" alt="" />
+                  <span class="topic2">Con<br />0-12 tháng</span>
+                </div>
+              </div>
+
+              <div class="topic-detail">
+                <div class="topic-top-1">
+                  <img class="top-img" src="./source/chude2.png" alt="" />
+                  <span class="topic1">
+                    Tuần <br />
+                    thứ 3</span
+                  >
+                </div>
+                <div class="topic-bottom">
+                  <img class="bottom-img" src="./source/chude10.png" alt="" />
+                  <span class="topic2">Con<br />1-2 tuổi</span>
+                </div>
+              </div>
+
+              <div class="topic-detail">
+                <div class="topic-top-2">
+                  <img class="top-img" src="./source/chude8.png" alt="" />
+                  <span class="topic1"
+                    >Tuần <br />
+                    thứ 5</span
+                  >
+                </div>
+                <div class="topic-bottom-1">
+                  <img class="bottom-img" src="./source/chude10.png" alt="" />
+                  <span class="topic2">Nhà trẻ&<br />mẫu giáo</span>
+                </div>
+              </div>
+            </div>
+            <!-- Thanh menu -->
+            <div class="horizontal">
+              <div class="horizontal-menu">
+                <div class="horizontal-item actions">
+                  <img
+                    class="horizontal-img"
+                    src="./source/mnungang1.png"
+                    alt=""
+                  />
+                  <span class="horizontal-name actions">Dành Cho Bạn</span>
+                </div>
+                <div class="horizontal-item">
+                  <img
+                    class="horizontal-img"
+                    src="./source/hot_sale_thang_9.png"
+                    alt=""
+                  />
+                  <span class="horizontal-name">Hot Sale Tháng 9</span>
+                </div>
+                <div class="horizontal-item">
+                  <img
+                    class="horizontal-img"
+                    src="./source/sieu_toc_1h_moi.png"
+                    alt=""
+                  />
+                  <span class="horizontal-name">Siêu Tốc Giao 1h</span>
+                </div>
+                <div class="horizontal-item">
+                  <img
+                    class="horizontal-img"
+                    src="./source/freeship.png"
+                    alt=""
+                  />
+                  <span class="horizontal-name">Tất Cả Freeship</span>
+                </div>
+                <div class="horizontal-item">
+                  <img
+                    class="horizontal-img"
+                    src="./source/buy_with_gift.png"
+                    alt=""
+                  />
+                  <span class="horizontal-name">Mua Là Có Quà</span>
+                </div>
+              </div>
+
+              <div class="content-product">
+                <!-- Dành cho bạn -->
+                <div class="product-detail actions">
+                  <div id="products" class="your-product">
+                    <!-- product 1 -->
+                    <div class="product">
+                      <img class="p-img" src="./source/DCB1.png" alt="" />
+                      <div class="name-product">
+                        <span>Bỉm tã quần Bobby size L</span>
+                      </div>
+                      <div class="star-product">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>Đã bán 200k+</span>
+                      </div>
+                      <div class="price-product">
+                        <span class="price-your"
+                          >335.000 <u>đ</u> <strong>10%</strong>
+                        </span>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- giao hàng nhanh 1h -->
+                <div class="product-detail">
+                  <div class="loca">
+                    <div class="loca-img-1"><img src="./source/localtion.svg" alt=""></div>
+                    <span class="note-1">Vui lòng <strong>Chọn khu vực nhận hàng <br> </strong> để hiển thị sản phẩm <strong>giao hàng siêu tốc 1h</strong> </span>
+          
+                    <div class="btn-lova"> 
+                      <span class="note-2">Chọn khu vực nhận hàng <i class="fa-solid fa-chevron-right"></i></span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- tất cả freeship -->
+                <div class="product-detail">
+                  <div class="all-freeship">
+                    <img src="./source/fre.png" alt="">
+                    <span>Hiện chưa có sản phẩm phù hợp <br> với tiêu chí của bố mẹ đã chọn</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="adds">
+                <a href="product.html">Xem Thêm</a>
+              </div>
+            </div>
+          </div>
+
+          
+        </div>
+      </nav>
+      
+
+      <!-- footer -->
+      <footer class="footer">
+        <div class="footer">
+          <div class="common">
+            <div class="footer-detail">
+              <div class="footer-top">
+                <div class="block">
+                  <img src="./source/ft1.png" alt="">
+                  <span>Cùng Ba Mẹ <br> Nuôi Con</span>
+                </div>
+    
+                <div class="block">
+                  <img src="./source/ft2.png" alt="">
+                  <span>Giao Hàng <br> Siêu Tốc 1h</span>
+                </div>
+    
+                <div class="block">
+                  <img src="./source/ft3.png" alt="">
+                  <span>100% <br> Chính Hãng</span>
+                </div>
+    
+                <div class="block">
+                  <img src="./source/ft4.png" alt="">
+                  <span>Chất Lượng <br>Đảm Bảo</span>
+                </div>
+    
+                <div class="block">
+                  <img src="./source/ft5.png" alt="">
+                  <span>Đổi Trả<br> Dễ Dàng</span>
+                </div>
+              </div>
+
+              <div class="footer-bottom">
+                <div class="footer-left">
+                  <h4>Công ty cổ phần Con Cưng</h4>
+                  <span>Thành viên của tập đoàn CCI Group</span>
+                  <li><strong>Email:</strong> cskh@concung.com</li>
+                  <li><strong>Điện Thoại:</strong> 028 7300 6609</li>
+                  <li><strong>DKKD</strong>66 Nguyễn Du, phường Bến Nghé<br> Quận 1, Tp. Hồ Chí Minh</li>
+                  <li><strong>Tòa Nhà: </strong> Tầng 14 Tòa nhà Phú Mỹ Hưng Tower <br> 08 Hoàng Văn Thái, P.Tân Phú, Q.7, HCM</li>
+                </div>
+                <div class="footer-left">
+                  <a href="Contact.html"><h4>Hỗ trợ khách hàng</h4></a>
+                  <li>Tra cứu hoá đơn</li>
+                  <li>Mua & giao nhận Online</li>
+                  <li>Qui định & hình thức thanh toán</li>
+                  <li>Bảo hành & Bảo trì</li>
+                  <li>Đổi trả & Hoàn tiền</li>
+                </div>
+                <div class="footer-left">
+                  <h4>Chấp nhận thanh toán</h4>
+                  <div class="left">
+                    <img src="./source/fttt1.png" alt="">
+                    <img src="./source/fttt2.png" alt="">
+                    <img src="./source/fttt3.png" alt="">
+                    <img src="./source/fttt4.png" alt="">
+                    <img src="./source/fttt5.png" alt=""><br>
+                    <img src="./source/fttt6.png" alt="">
+                    <img src="./source/fttt7.png" alt="">
+                    <img src="./source/fttt8.png" alt="">
+                    <img src="./source/fttt9.png" alt="">
+                    <img src="./source/fttt10.png" alt="">
+                  </div>
+                  <h4 class = "deliver">Đối tác vận chuyển</h4>
+                  <div class="left">
+                    <img src="./source/grap.png" alt="">
+                    <img src="./source/ahamove.png" alt="">
+                  </div>
+                </div>
+
+                <div class="footer-right">
+                  <h4>Tải ứng dụng - Ưu đãi đến 1 triệu, <br>Dành cho ba mẹ mới</h4>
+                  
+                  <div class="right-detail">
+                    <img class="footer-QR" src="./source/maQR.svg" alt="">
+                    <div class="img-foo">
+                      <img class="footer-device" src="./source/app-ios.png" alt="">
+                      <img class="footer-device" src="./source/app-android.png" alt="">
+                    </div>
+                  </div>
+
+                  <h4 class="title">Kết nối với chúng tôi</h4>
+                  
+                  <div class="connect">
+                    <img src="./source/facebook.png" alt="">
+                    <img src="./source/zalo.png" alt="">
+                    <img src="./source/youtube.png" alt="">
+                  </div>
+                </div>
+              </div>
+
+              <div class="copyright">
+                <i class="fa-regular fa-copyright"></i>
+                <p>2023 Con Cưng. Tất cả các quyền được bảo lưu.</p>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="./js/index.js"></script>
+    <script src="./js/Tienich.js"></script>
+    <script src="./js/milk.js"></script>
+    <script src="./js/time.js"></script>
+    <script src="./js/selling.js"></script>
+    <script src="./js/tab-content.js"></script>
+    <script src="./js/slideblog.js"></script>
+  </body>
+</html>

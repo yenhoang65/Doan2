@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+}
+
+.common {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.header{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.Header-detail{
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+}
+
+.Header-detail a{
+    width: 194px;
+}
+
+.Header-detail img{
+    height: 48px;
+    width: 134px;
+    object-fit: cover;
+    margin-left: 30px;
+} 
+
+.Header-detail span{
+    font-size: 28px;
+    font-weight: 800;
+    font-family: "nunito", sans-serif;
+    padding-left: 30px;
+    border-left: 2px solid#b4b4b4;
+    color: #555;
+}
+
+.nav{
+    background-color: #fed8eb;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    /* text-align: center; */
+}
+
+.img-login{
+    height: 490px;
+    object-fit: cover;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.login{
+    display: block;
+    background-color: #ffff;
+    margin: 30px 0 100px 0;
+    /* padding-left: 30px; */
+    padding: 40px 20px; 
+    border-radius: 10px;
+}
+
+/* .login-top{
+    width: 300px;
+    text-align: center;
+} */
+
+.login-top h4{
+    font-family: "nunito", sans-serif;
+    font-size: 15px;
+    font-weight: 1000;
+    margin-right: 120px;
+}
+
+.login-note{
+    display: block;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-right: 20px;
+}
+
+.login-note a{
+    color: #ff379b;
+    text-decoration: none;
+}
+
+/* .login-top input{
+    flex: 1;
+    margin-top: 20px;
+    height: 40px;
+    width: 270px;
+    border-radius: 8px;
+    border: none;
+    background-color: #f2f2f2;
+    color: #555;
+    font-weight: 800;
+    outline: none;
+    padding-left: 20px;
+}
+
+.login-top .next{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background: #b7b7b7;
+    width: 270px;
+    padding: 7px 0;
+    color: #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-left: 15px;
+} */
+
+.login-top button a{
+    /* padding: 5px 0; */
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.login-top button:hover{
+    background-color: #ff379b;
+}
+
+.login-bottom{
+    margin-top: 50px;
+    font-size: 12px;
+    color: #67686c;
+    width: 300px;
+    text-align: center;
+}
+
+
+
+.login-bottom a{
+    text-decoration: none;
+    color: #ff379b;
+}
+
+.login-bottom input{
+    /* display: block; */
+    height: 14px;
+    width: 14px;
+    transform: translateY(20%);
+}

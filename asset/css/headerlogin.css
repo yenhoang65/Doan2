@@ -1,0 +1,257 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    /* height: 5000px; */
+    background-color: #f5f7fd;
+    font-family: "Nunito", sans-serif;
+  }
+  
+  .image {
+    width: 100wh;
+    height: 55px;
+  }
+  
+  .image img {
+    object-fit: cover;
+    max-width: 100%;
+  }
+.chead {
+    background: #fff4fc;
+  }
+  
+  /* ============= Commmon ================= */
+  
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .common {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* ==================================================== */
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+  }
+  .contact {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 6px;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+  
+  .contact .cskh,
+  .contact .address,
+  .contact .inputs,
+  .contact .actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact .cskh .phone {
+    color: #f54282;
+    font-weight: 600;
+    margin-left: 3px;
+    font-weight: 800;
+  }
+  
+  .contact .cskh img {
+    width: 40px;
+    margin-bottom: 3px;
+  }
+  
+  .contact img {
+    height: 25px;
+    width: 25px;
+  }
+  
+  .contact .address strong {
+    color: #f54282;
+    font-weight: 800;
+  }
+  
+  .contact .inputs strong {
+    font-weight: 700;
+  }
+  
+  .contact i {
+    font-size: 17px;
+    margin-right: 5px;
+    color: #808080;
+  }
+  
+  .contact .actions .login {
+    color:#666;
+    font-size: 1.5rem;
+    font-weight: 700;
+    /* border: 2px solid #000; */
+  }
+
+  .actions a{
+    border: 2px solid #666;
+    padding: 2px 5px;
+    border-radius: 999px;
+    background-color: #ececec;
+
+  }
+  
+  .banner {
+    height: 80px;
+    width: 100%;
+    background-color: white;
+  
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+  }
+  
+  .banner-1 {
+    height: 80px;
+    width: 1200px;
+    margin: auto;
+    display: flex;
+  }
+  
+  .logoconcung {
+    height: 80px;
+    width: 250px;
+  }
+  
+  .logoconcung a img {
+    height: 60px;
+    width: 180px;
+    margin-top: 10px;
+  }
+  
+  .box {
+    height: 48px;
+    width: 680px;
+    margin-top: 16px;
+    border-radius: 15px;
+    display: flex;
+  }
+  
+  .input {
+    flex: 1;
+    outline: none;
+    border-radius: 15px 0 0 15px;
+    border: 2px solid #ff469e;
+    font-size: 15px;
+    padding-left: 20px;
+  }
+  
+  .box button {
+    background-color: #ff469e;
+    padding: 10px 25px;
+    border: none;
+    outline: none;
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 0 15px 15px 0;
+    font-size: 24px;
+  }
+  
+  .notification {
+    height: 50px;
+    width: 200px;
+    /* background-color: coral; */
+    margin: 12px 0 0 70px;
+    display: flex;
+  }
+  
+  .notifi-1 {
+    height: 50px;
+    width: 80px;
+  }
+  
+  .notifi-1-1 {
+    height: 35px;
+    width: 35px;
+    font-size: 25px;
+    position: relative;
+    margin-left: 20px;
+  }
+  
+  .notifi-1-1 i {
+    margin-top: 8px;
+    color: #808080;
+  }
+  
+  .notifi-1-1 .badge {
+    position: absolute;
+    color: white;
+    background-color: #f90;
+    top: 0;
+    right: 0;
+    font-size: 14px;
+    border-radius: 99px;
+    padding: 2px;
+  }
+  
+  .notifi-1-2 {
+    margin-top: 7px;
+    margin-left: 4px;
+    height: 15px;
+    width: 80px;
+    font-size: 15px;
+  }
+  
+  .notifi-1-2 a,
+  .notifi-2-2 a {
+    color: #000;
+  }
+  
+  .notifi-2 {
+    height: 50px;
+    width: 70px;
+    margin-left: 20px;
+  }
+  
+  .notifi-2-1 {
+    height: 35px;
+    width: 35px;
+    font-size: 25px;
+    position: relative;
+    margin-left: 25px;
+  }
+  
+  .notifi-2-1 i {
+    margin: 8px 0 0 7px;
+    color: #808080;
+  }
+  
+  .notifi-2-1 .badge {
+    position: absolute;
+    color: white;
+    background-color: #f90;
+    top: 0;
+    right: 0;
+    font-size: 14px;
+    border-radius: 99px;
+    padding: 2px;
+  }
+  
+  .notifi-2-2 {
+    height: 15px;
+    width: 60px;
+    font-size: 15px;
+    margin-left: 22px;
+    margin-top: 7px;
+  }
+  

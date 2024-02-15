@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.common{
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+}
+
+.blog-content{
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 10px 0 0 20px;
+}
+
+.blog-content .noidung{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.blog-time{
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-time .eye{
+    margin-right: 20px;
+}
+
+.bl-content{
+    display: block;
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 25px;
+    width: 1160px;
+}
+
+.img-blog{
+    margin-top: 10px;
+    margin-left: 160px;
+}
+
+.bl-til{
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 15px;
+}
+
+.img-blog-2{
+    margin-top: 20px;
+    margin-left: 80px;
+}

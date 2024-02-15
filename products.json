@@ -1,0 +1,99 @@
+[
+    {
+        "id": 1,
+        "name":"Thực phẩm dinh dưỡng y học Ensure Gold Vani",
+        "Price":"679.000",
+        "image": "img/produc2.jpg"
+    },
+    {
+        "id": 2,
+        "name":"Sữa Nan Optipro PLUS 4 1.5kg, với 5HMO",
+        "Price": "719.000",
+        "image": "img/produc4.jpg"
+    },
+    {
+        "id": 3,
+        "name":"Sữa Enfagrow A+ số 4 1700g (2-6 Tuổi) 2Flex",
+        "Price": "709.000",
+        "image": "img/anhsua9.png"
+    },
+    {
+        "id": 4,
+        "name":"Sữa Abbott Grow 4 900g (trên 2 tuổi)",
+        "Price": "339.000",
+        "image": "img/anhsua2.png"
+    },
+    {
+        "id": 5,
+        "name":"Sữa Similac 5G số 4 1,7kg (2-6 tuổi)",
+        "Price": "869.000",
+        "image": "img/anhsua4.png"
+    },
+    {
+        "id": 6,
+        "name":"Sữa Similac Protection 900g (6-12 tháng)",
+        "Price": "659.000",
+        "image": "img/produc10.jpg"
+    },
+    {
+        "id": 7,
+        "name":" Thực phẩm cho trẻ 1-10 tuổi: Pediasure 1.6kg",
+        "Price": "509.000",
+        "image": "img/produc8.jpg"
+    },
+    {
+        "id": 8,
+        "name":"Bỉm tã quần Merries size M 58 miếng (6-11kg)",
+        "Price": "385.000",
+        "image": "img/anhta2.png"
+    },
+    {
+        "id": 9,
+        "name":"Tã quần Merries Ultra Jumbo (L, 9-14kg)",
+        "Price": "395.000",
+        "image": "img/anhta3.png"
+    },
+    {
+        "id": 10,
+        "name":"Bỉm tã dán Molfix Thiên nhiên (S, 4-8kg)",
+        "Price": "295.000",
+        "image": "img/anhta5.png"
+    },
+    {
+        "id": 11,
+        "name":"Bỉm tã quần Moony bé trai size XXL(13-28kg)",
+        "Price": "312.000",
+        "image": "img/sale2.png"
+    },
+
+    {
+        "id": 12,
+        "name":"Bỉm tã quần Bobby bé trai size XXL(4-10kg)",
+        "Price": "290.000",
+        "image": "img/sale6.png"
+    },
+    {
+        "id": 13,
+        "name":"Tã quần Moony (L - bé trai, 44 miếng) + 6 miếng",
+        "Price": "310.000",
+        "image": "img/sale4.png"
+    },
+    {
+        "id": 14,
+        "name":"Tã quần Huggies gói cực đại (XL, 12-17kg)",
+        "Price": "325.000",
+        "image": "img/sale7.png"
+    },
+    {
+        "id": 15,
+        "name":"Tã quần Huggies gói cực đại (XL, 12-17kg)",
+        "Price": "325.000",
+        "image": "img/sale7.png"
+    },
+    {
+        "id": 16,
+        "name":"Tã quần Huggies gói cực đại (XL, 12-17kg)",
+        "Price": "325.000",
+        "image": "img/sale7.png"
+    }
+]

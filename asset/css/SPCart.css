@@ -1,0 +1,262 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.common{
+    margin: 0 auto;
+    width: 1200px;
+    /* display: flex; */
+}
+
+.left-top{
+    display: flex;
+    font-size: 16px;
+    margin-top: 15px;
+    background-color: #ffff;
+    padding: 18px 0;
+    border-bottom: solid 1px #eaeaea;
+    border-radius: 12px 12px 0 0;
+}
+
+.top-cart{
+    font-size: 18px;
+    margin-left: 20px;
+    font-weight: 800;
+    font-family: "Montserrat Alternates", sans-serif;
+    width: 400px;
+}
+
+.top-name{
+    width: 400px;
+}
+
+.top-name span{
+    margin-right: 65px;
+    display: inline;
+}
+
+.detail{
+    padding:15px 0;
+    background-color: #ffff;
+    font-size: 16px;
+    display: flex;
+    border-bottom: solid 1px #eaeaea;
+    border-radius: 0 0 12px 12px;
+
+}
+
+.product-name{
+    display: flex;
+    width: 400px;
+}
+
+.product-name img{
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+    border: solid 1px #eaeaea;
+    border-radius: 8px;
+    
+}
+
+.product-name span{
+    padding-left: 10px;
+    margin-right: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.product-detail{
+    display: flex;
+    align-items: center;
+    width: 430px;
+    /* justify-content: space-between; */
+    padding-left: 10px;
+    margin-left: 5px;
+}
+
+.product-item img{
+    height: 25px;
+    width: 60px;
+    cursor: pointer;
+}
+
+.soluong{
+    margin-left: 45px;
+}
+
+.soluong button{
+    background-color: #eee;
+    height: 30px;
+    width: 30px;
+    border: 0;
+    cursor: pointer;
+    font-size: 22px;
+    color: #555;
+    border-radius: 5px;
+}
+
+.soluong button:hover{
+    background-color: #D8D8D8;
+}
+
+.soluong span{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.product-price{
+    margin-left: 55px;
+    font-weight: 700;
+}
+
+.product-item{
+    margin-left: 15px;
+}
+
+.unit-price{
+    font-weight: 700;
+}
+
+
+/* nav right */
+
+.nav-right{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+/* địa chỉ nhận hàng */
+
+.delivery-address{
+    background-color: #ffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 12px;
+}
+
+.delivery-address span{
+    color: #67686c;
+    font-size: 20px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 800;
+    margin-left: 20px;
+}
+
+.delivery-address img{
+    height: 60px;
+    width: 310px;
+    margin: 15px 0 0 20px;
+    border: dashed 2px #c52c22;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* ưu đãi giảm giá */
+
+.discount-offers{
+    background-color: #ffff;
+    margin-top: 15px;
+    padding: 20px 0;
+    border-radius: 12px;
+}
+
+.offers-name span{
+    font-size: 20px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 800;
+    margin-left: 20px;
+    color: #67686c;
+}
+
+.voucher-name{
+    align-items: center;
+    height: 36px;
+    padding-left: 15px;
+    border: 1.5px solid #FF7D19;
+    display: flex;
+    width: 310px;
+    margin: 15px 0 0 18px;
+    border-radius: 10px;
+}
+
+.voucher-name img{
+    height: 20px;
+    width: 20px;
+    display: block;
+    cursor: pointer;
+}
+
+.voucher-name span{
+    margin-left: 10px;
+    font-size: 14px;
+    color: #FF7D19;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.pay{
+    background-color: #ffff;
+    margin-top: 15px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    font-size: 14px;
+    border-radius: 12px;
+    
+}
+
+.pay-detail{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.pay-name{
+    color: #707175;
+    font-weight: 600;
+}
+
+.sp-price{
+    margin-right: 25px;
+    color: #202020;
+    font-weight: 700;
+}
+
+.sp-price-1{
+    margin-right: 25px;
+    color: #ff199b;
+    font-weight: 700;
+}
+
+.pay-sp{
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px 20px 0 0;
+    font-size: 15px;
+}
+
+.continue{
+    margin-top: 10px;
+    margin-right: 20px;
+    background-color:#ff199b;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.continue a{
+    font-size: 17px;
+    font-weight: 700;
+    color: #ffff;
+}
+
+.continue button{
+    background-color:#ff199b;
+    padding: 12px 0;
+    border: none;
+}
+
